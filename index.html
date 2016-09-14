@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Project Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</head>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">Log Entries</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home  <span class="glyphicon glyphicon-home"></span></a></li>
+                    <li><a href="#">My Profile  <span class="glyphicon glyphicon-user"></span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Log Entries <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Log 001</a></li>
+                            <li><a href="#">Log 002</a></li>
+                            <li><a href="#">Log 003</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Sublog 001</a></li>
+                            <li><a href="#">Sublog 002</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container text-center">
+        <div class="jumbotron vertical-center">
+
+    <div class="container text-left">
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>User:</th>
+                <th>Entry Number:</th>
+                <th>Entry Title:</th>
+                <th>Date Published:</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Matt Stevenson</td>
+                <td>001</td>
+                <td>HTML & CSS 1</td>
+                <td>08/09/11</td>
+            </tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="result"></div>
+    <script>
+        if (typeof(Storage)!== "undefined")
+        {
+            alert("Local storage is available");
+            localStorage.setItem("User", "Matt Stevenson");
+            localStorage.setItem("Entry Title", "HTML & CSS 1");
+            localStorage.setItem("Date Published", "08/09/16");
+            localStorage.setItem("entry", "Entry 01: My first task has been to create an HTML document featuring a document type and a basic page structure, " +
+                                 "print my name as a header, write an introduction, create a table of contents, and include a hyperlink to W3 Schools Website. " +
+                                 "These elements should be editted and styled in CSS, including size, color and position, with text set to 'fixed width', and the " +
+                                 "table of contents set to 'fluid'. The web page should be equipped with the ability to play audio files and access an HTML 5 API.");
+
+            document.getElementById("result").innerHTML = localStorage.getItem("entry");
+        }
+        else
+        {
+            alert("Local storage is not available.")
+        }
+    </script>
+    <br>
+    <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+        <source src="audio1.ogg" type="audio/ogg">
+        Your browser does not support mp3/ogg audio files.
+    </audio>
+
+    <br>
+
+<div id = "outer">
+    <div>
+        <h5 id="w3">https://www.w3schools.com/html/</h5>
+    </div>
+
+    <div id = "overlay">
+
+    </div>
+</div>
+        <ul id="menu">
+            <li>
+                <button>Item 1</button>
+            </li>
+            <li>
+                <button>Item 2</button>
+            </li>
+            <li>
+                <button>Item 3</button>
+            </li>
+        </ul>
+
+    <a href= "http://www.w3schools.com/html/">W3 Schools Website</a><br>
+</div>
+</div>
+</div>
+</body>
+</html>
