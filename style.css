@@ -5,8 +5,8 @@ body
 
 .jumbotron {
     margin-bottom: 0;
-    background-image: url(http://www.androidguys.com/wp-content/uploads/2013/03/geometry_25.jpg);
-    background-position: 0% 5%;
+    background-image: url(https://newevolutiondesigns.com/images/freebies/geometric-wallpaper-2.jpg);
+    background-position: 0% 20%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -24,8 +24,6 @@ body
 
 p
 {
-    background-color: whitesmoke !important;
-    border-radius: 25px;
     font-family: Oswald;
 }
 
