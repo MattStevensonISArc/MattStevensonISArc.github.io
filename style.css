@@ -6,7 +6,7 @@ body
 .jumbotron {
     margin-bottom: 0;
     background-image: url(http://www.androidguys.com/wp-content/uploads/2013/03/geometry_25.jpg);
-    background-position: 0% 50%;
+    background-position: 0% 5%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -26,6 +26,7 @@ p
 {
     background-color: whitesmoke !important;
     border-radius: 25px;
+    font-family: Oswald;
 }
 
 #w3{
@@ -80,4 +81,8 @@ p
 
 #isarcLogo{
     box-shadow: black 0.1em 0.1em 0.1em;
+}
+
+h1{
+    font-family: Lobster, cursive;
 }
