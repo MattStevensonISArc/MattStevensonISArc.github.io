@@ -30,7 +30,7 @@ img{
 
 .jumbotron {
     margin-bottom: 0;
-    background-image: url(https://newevolutiondesigns.com/images/freebies/geometric-wallpaper-2.jpg);
+    background-image: url(http://4.bp.blogspot.com/-4ui9g4WbkJE/UjaR8kN389I/AAAAAAAACok/Sa_n2WEEozU/s1600/mesh_lipstick_concrete-02.png);
     background-position: 0 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@ img{
 
 #jumbotron2{
      margin-bottom: 0;
-     background-image: url(http://4.bp.blogspot.com/-4ui9g4WbkJE/UjaR8kN389I/AAAAAAAACok/Sa_n2WEEozU/s1600/mesh_lipstick_concrete-02.png);
+     background-image: url(https://newevolutiondesigns.com/images/freebies/geometric-wallpaper-2.jpg);
      background-position: 0 20%;
      background-repeat: no-repeat;
      background-size: cover;
@@ -93,9 +93,14 @@ img{
     padding-right:15px;
 }
 
+.container{
+    padding-right:35px;
+    padding-left:35px;
+}
+
 .container-fluid{
-    padding-right:40px;
-    padding-left:40px;
+    padding-left:0;
+    padding-right:0;
 }
 
 #isarclogo{
@@ -108,6 +113,11 @@ img{
     opacity:0.8;
 }
 #result{
-    padding-left: 30px;
-    padding-right:30px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+#avatar{
+    width: 250px;
+    height:250px;
 }
