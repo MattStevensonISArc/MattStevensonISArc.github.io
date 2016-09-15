@@ -94,8 +94,8 @@ img{
 }
 
 .container-fluid{
-    padding-right:0;
-    padding-left:0;
+    padding-right:40px;
+    padding-left:40px;
 }
 
 #isarclogo{
