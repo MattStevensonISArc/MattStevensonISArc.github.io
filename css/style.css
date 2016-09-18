@@ -1,0 +1,74 @@
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("http://wallpapercave.com/wp/vcN105S.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+body {
+    font-family: Josefin Slab, cursive;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Lobster, cursive;
+    text-shadow: 1px 1px rgba(39, 39, 39, 0.71);
+}
+
+h2{
+    font-family: Amatic SC, cursive;
+    font-size: 40px;
+}
+h3{
+    font-family: Lobster Two, cursive;
+    font-size: 32px;
+}
+p
+{
+    font-family: Amatic SC, cursive;
+    font-size: 28px;
+}
+
+#isarclogo{
+    transition: 1.5s;
+}
+
+#isarclogo:hover {
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    opacity: 0.6;
+}
+
+#intro:hover
+{
+    transform: scale(1.3,1.3);
+    -webkit-transform: scale(1.3,1.3);
+}
+
+#intro{
+    transition: 3s;
+}
+
+
+
