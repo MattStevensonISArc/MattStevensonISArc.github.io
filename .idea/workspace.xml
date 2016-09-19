@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/introImage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/isarc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/isarclogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/matts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/w3schools.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mattie.jpg" afterPath="$PROJECT_DIR$/mattie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createLog.html" afterPath="$PROJECT_DIR$/createLog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentProfile.html" afterPath="$PROJECT_DIR$/studentProfile.html" />
-    </list>
+    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="" />
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -40,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -236,7 +220,7 @@
       <workItem from="1473988625536" duration="692000" />
       <workItem from="1473991597755" duration="182000" />
       <workItem from="1474012879365" duration="2923000" />
-      <workItem from="1474299649426" duration="15000" />
+      <workItem from="1474299649426" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -249,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70308000" />
+    <option name="totallyTimeSpent" value="70484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1432" height="805" extended-state="0" />
@@ -671,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
           <folding />
         </state>
       </provider>
