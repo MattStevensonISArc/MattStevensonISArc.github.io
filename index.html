@@ -23,25 +23,25 @@
     <!-- Custom CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-
 </head>
 <body>
 
 <div class="left">
-    <div class="sidebar active">
+    <div class="sidebar-nav active">
         <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> Home</a>
+        <span></span>
     </div>
-    <div class="sidebar">
-        <span class="glyphicon glyphicon-log-out"></span>
+    <div class="sidebar-nav">
+        <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> Profile</a>
     </div>
-    <div class="sidebar">
-        <span class="glyphicon glyphicon-log-in"></span>
+    <div class="sidebar-nav">
+        <a class="nav-link" href="viewLogs.html"><i class="material-icons">list</i> Logs</a>
     </div>
-    <div class="sidebar">
-        <span class="glyphicon glyphicon-random"></span>
+    <div class="sidebar-nav">
+        <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> Create</a>
     </div>
-    <div class="sidebar">
-        <span class="glyphicon glyphicon-remove"></span>
+    <div class="sidebar-nav">
+        <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> Feedback</a>
     </div>
 </div>
 
@@ -64,8 +64,10 @@
             </li>
         </ul>
     </div>
+
     <!--/Intro content-->
 </div>
+
 <!--/.Mask-->
 
 <main>
@@ -89,8 +91,8 @@
                 <h2 class="h2-responsive">Hi, I'm Matt!</h2>
                 <hr>
                 <h4>My name is Matt Stevenson I'm 20 years old, and I'm a third year student at the Ulster University, Coleraine.<br>
-                Currently, I'm out of Uni and on a one year placement - where I work and study in 'ISArc', a Information Systems <br>
-                firm who have taken on three voluntary placement students, including myself.</h4>
+                    Currently, I'm out of Uni and on a one year placement - where I work and study in 'ISArc', a Information Systems <br>
+                    firm who have taken on three voluntary placement students, including myself.</h4>
                 <hr>
                 <h5><small><i>“If you can't explain it to a six year old, you don't understand it yourself.” ― Albert Einstein</i></small></h5>
             </div>
@@ -193,12 +195,11 @@
     </div>
     <!--/.Main layout-->
 
-
 </main>
 
 <!-- Footer -->
 
-<footer class="page-footer blue center-on-small-only">
+<footer class="page-footer #1565C0 center-on-small-only">
 
     <!--Footer Links-->
     <div class="container">
@@ -242,7 +243,7 @@
     <!--Copyright-->
     <div class="footer-copyright">
         <div class="container-fluid">
-           <a href="http://www.isarc.co.uk">Matt Stevenson - ISArc Ltd. </a> © Copyright 2016
+            <a href="http://www.isarc.co.uk">Matt Stevenson - ISArc Ltd. </a> © Copyright 2016
 
         </div>
     </div>
@@ -251,37 +252,6 @@
 
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-<script>
-    $(document).ready(function () {
-        var trigger = $('.sidebar'),
-                isClosed = false;
-
-        trigger.click(function () {
-            sidebar_cross();
-        });
-
-        function sidebar_cross() {
-
-            if (isClosed == true) {
-                trigger.removeClass('is-open');
-                trigger.addClass('is-closed');
-                isClosed = false;
-            } else {
-                trigger.removeClass('is-closed');
-                trigger.addClass('is-open');
-                isClosed = true;
-            }
-        }
-        $('[data-toggle="offcanvas"]').click(function () {
-            $('#wrapper').toggleClass('toggled');
-        });
-        $(document).on('click','.navbar-collapse.in',function(e) {
-            if( $(e.target).is('a') ) {
-                $(this).collapse('hide');
-            }
-        });
-    });
-</script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="js/tether.min.js"></script>
 <!-- Bootstrap core JavaScript -->
