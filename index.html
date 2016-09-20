@@ -23,66 +23,43 @@
     <!-- Custom CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+
 </head>
 <body>
-<div id="wrapper">
-    <!-- Sidebar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-        <ul class="nav sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="55" height="35"></a>
-            </li>
-            <li>
-                <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> Home</a>
-            </li>
-            <li>
-                <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> Profile</a>
-            </li>
-            <li class="dropdown">
-                <a href="viewLogs.html" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">list</i> Logs<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header" id="ddheader">Journal Entries:</li>
-                    <li><a href="viewLogs.html">Log 001</a></li>
-                    <li><a href="viewLogs.html">Log 002</a></li>
-                    <li><a href="viewLogs.html">Log 003</a></li>
-                </ul>
-            </li>
-            <li>
-                <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> Create</a>
-            </li>
-            <li>
-                <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> Feedback</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <button type="button" class="sidebar is-closed" data-toggle="offcanvas">
-            <span class="sidebar-top"></span>
-            <span class="sidebar-middle"></span>
-            <span class="sidebar-bottom"></span>
-        </button>
+<div class="left">
+    <div class="sidebar active">
+        <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> Home</a>
     </div>
-    <!-- /#page-content-wrapper -->
+    <div class="sidebar">
+        <span class="glyphicon glyphicon-log-out"></span>
+    </div>
+    <div class="sidebar">
+        <span class="glyphicon glyphicon-log-in"></span>
+    </div>
+    <div class="sidebar">
+        <span class="glyphicon glyphicon-random"></span>
+    </div>
+    <div class="sidebar">
+        <span class="glyphicon glyphicon-remove"></span>
+    </div>
 </div>
-<!-- /#wrapper -->
 
 <!--Mask-->
 
-<div class="view hm-black-dark">
+<div class="view hm-black-light">
     <!--Intro content-->
     <div class="full-bg-img flex-center">
         <ul>
+            <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56"></a>
             <li>
                 <h1 class="h1-responsive animated fadeIn">Placement Log</h1>
-                <p><small>Created by</small></p>
-                <p id="intro">-Matt Stevenson-</p>
+                <p class ="p-responsive animated fadeIn"><small>Created by</small></p>
+                <p class ="p-responsive animated fadeIn" id="intro">-Matt Stevenson-</p>
             </li>
         </li>
             <li class="wow fadeInUp" data-wow-delay="0.3s">
-                <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg"><i class="material-icons">list</i>View Logs </a>
+                <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg"><i class="material-icons">list</i>View Logs </a><br>
                 <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg"><i class="material-icons">create</i>Create Log </a>
             </li>
         </ul>
