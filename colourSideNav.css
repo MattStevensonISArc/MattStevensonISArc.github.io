@@ -1,0 +1,232 @@
+main
+{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+body
+{
+    font-family: Josefin Slab, cursive;
+    font-size: 18px;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-family: Lobster, cursive;
+    text-shadow: 1px 1px rgba(39, 39, 39, 0.71);
+}
+
+h2
+{
+    font-family: Amatic SC, cursive;
+    font-size: 40px;
+}
+
+h3
+{
+    font-family: Lobster Two, cursive;
+    font-size: 32px;
+}
+
+h4
+{
+    font-family: Josefin Slab, cursive;
+    font-size: 18px;
+}
+
+p
+{
+    font-family: Amatic SC, cursive;
+    font-size: 28px;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("http://wallpapercave.com/wp/vcN105S.png")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.flex-center {
+    color: #fff;
+}
+
+.extra-margins
+{
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+
+#isarclogo {
+    transition: 1.5s;
+    display: block;
+    margin: 0 auto;
+}
+
+#isarclogo:hover {
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    opacity: 0.6;
+}
+
+#intro:hover
+{
+    transform: scale(1.3,1.3);
+    -webkit-transform: scale(1.3,1.3);
+}
+
+#intro{
+    transition: 3s;
+}
+
+#intro2:hover
+{
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+}
+
+#intro2{
+    transition: 3s;
+}
+
+#avatar:hover
+{
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+}
+
+#avatar{
+    transition: 3s;
+}
+
+.container-fluid{
+    padding-left: 0;
+}
+
+.list-inline li{
+    display:inline-block;
+
+}
+
+.ul{
+    align-items: center
+}
+
+#ddheader{
+    font-size: 16px;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:200px;
+    transition: width 1s;
+}
+
+.sidebar-nav:hover{
+    width: 220px;
+}
+
+.sidebar-nav .material-icons {
+    margin:15px;
+    width:20px;
+    color:#fff;
+}
+
+li.material-icons.material-icons-refresh{
+    font-size:18px;
+    vertical-align: middle !important;
+}
+
+.sidebar-nav li {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.sidebar-nav li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 3px;
+    background-color: #1c1c1c;
+    -webkit-transition: width .2s ease-in;
+    -moz-transition:  width .2s ease-in;
+    transition: width .2s ease-in;
+
+}
+.sidebar-nav li:first-child a {
+    color: #fff;
+    background-color: #1a1a1a;
+}
+.sidebar-nav li:nth-child(2):before {
+    background-color: #ec1b5a;
+}
+.sidebar-nav li:nth-child(3):before {
+    background-color: #79aefe;
+}
+.sidebar-nav li:nth-child(4):before {
+    background-color: #489044;
+}
+.sidebar-nav li:nth-child(5):before {
+    background-color: #ffc71f;
+}
+.sidebar-nav li:nth-child(6):before {
+    background-color: #614981;
+}
+.sidebar-nav li:nth-child(7):before {
+    background-color: #ead24c;
+}
+.sidebar-nav li:nth-child(8):before {
+    background-color: #2d2366;
+}
+.sidebar-nav li:nth-child(9):before {
+    background-color: #35acdf;
+}
+.sidebar-nav li:hover:before,
+.sidebar-nav li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+    -moz-transition:  width .2s ease-in;
+    transition: width .2s ease-in;
+
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus,
+.sidebar-nav li.open a:hover,
+.sidebar-nav li.open a:active,
+.sidebar-nav li.open a:focus{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar{
+    padding: 0;
+}

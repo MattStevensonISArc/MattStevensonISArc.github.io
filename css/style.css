@@ -8,7 +8,7 @@ body
 {
     font-family: Josefin Slab, cursive;
     font-size: 18px;
-    color: white;
+    color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -126,46 +126,36 @@ body,
     font-size: 16px;
 }
 
-.left, .right {
+.sidebar {
     float:left;
     height:100vh;
 }
 
-.left {
+.sidebar {
     display: inline-block;
     white-space: nowrap;
     width:50px;
     transition: width 1s ;
-    background: #2e4469;
+    background: #172540;
 }
 
-.left:hover {
-    width: 150px;
+.sidebar:hover {
+    width: 147px;
 }
 
-.item:hover {
-    background-color:#ccc;
+.buttonHover:hover {
+    background-color:#0f161f;
 }
 
-.left .material-icons {
+.sidebar .material-icons {
     margin:15px;
     width:20px;
     color:#fff;
 }
 
 span.material-icons.material-icons-refresh{
-    font-size:18px;
+    font-size:16px;
     vertical-align: middle !important;
-}
-
-.item {
-    height:50px;
-    overflow:hidden;
-    color:#fff;
-}
-
-.navbar {
-    background-color: transparent;
 }
 
 .scrolling-navbar {
@@ -174,24 +164,16 @@ span.material-icons.material-icons-refresh{
     transition: background .3s ease-in-out, padding .3s ease-in-out;
 }
 
-.top-nav-collapse {
-    background-color: #ffffff;
-}
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #ffffff;
-    }
-}
-
-.sidebar{
-    background:transparent;
-}
-
-a {
+.nav-link {
     color: white;
 }
 
-a:hover{
-    color: mediumspringgreen;
+.nav-link:hover{
+    color: #2bbaac;
 }
+
+.row{
+    padding-top: 30px;
+}
+
 
