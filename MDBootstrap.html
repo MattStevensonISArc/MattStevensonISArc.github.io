@@ -1,0 +1,68 @@
+<nav class="sidebar">
+    <div class="buttonHover">
+        <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> Home</a>
+    </div>
+    <div class="buttonHover">
+        <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> Profile</a>
+    </div>
+    <div class="buttonHover">
+        <a class="nav-link" href="viewLogs.html"><i class="material-icons">list</i> Logs</a>
+    </div>
+    <div class="buttonHover">
+        <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> Create</a>
+    </div>
+    <div class="buttonHover">
+        <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> Feedback</a>
+    </div>
+</nav>
+
+
+.sidebar {
+float:left;
+height:100vh;
+}
+
+.sidebar {
+display: inline-block;
+white-space: nowrap;
+width:50px;
+transition: width 1s ;
+background: #172540;
+}
+
+.sidebar:hover {
+width: 147px;
+}
+
+.buttonHover:hover {
+background-color:#0f161f;
+}
+
+.sidebar .material-icons {
+margin:15px;
+width:20px;
+color:#fff;
+}
+
+span.material-icons.material-icons-refresh{
+font-size:16px;
+vertical-align: middle !important;
+}
+
+.scrolling-navbar {
+-webkit-transition: background .3s ease-in-out, padding .3s ease-in-out;
+-moz-transition: background .3s ease-in-out, padding .3s ease-in-out;
+transition: background .3s ease-in-out, padding .3s ease-in-out;
+}
+
+.nav-link {
+color: white;
+}
+
+.nav-link:hover{
+color: #2bbaac;
+}
+
+.row{
+padding-top: 30px;
+}

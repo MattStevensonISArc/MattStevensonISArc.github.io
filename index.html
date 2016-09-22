@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Project Website</title>
+    <title>Placement Log</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,23 +26,38 @@
 </head>
 <body>
 
-<div class="sidebar active">
-    <div class="buttonHover">
-        <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> Home</a>
-    </div>
-    <div class="buttonHover">
-        <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> Profile</a>
-    </div>
-    <div class="buttonHover">
-        <a class="nav-link" href="viewLogs.html"><i class="material-icons">list</i> Logs</a>
-    </div>
-    <div class="buttonHover">
-        <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> Create</a>
-    </div>
-    <div class="buttonHover">
-        <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> Feedback</a>
-    </div>
-</div>
+<!--Navbar-->
+<nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
+
+    <!-- Collapse button-->
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+        <i class="fa fa-bars"></i>
+    </button>
+
+        <!--Collapse content-->
+        <div class="collapse navbar-toggleable-xs" id="collapseEx">
+            <!--Links-->
+            <ul class="nav navbar-nav smooth-scroll">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="viewLogs.html"><i class="material-icons">list</i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> </a>
+                </li>
+            </ul>
+        </div>
+        <!--/.Collapse content-->
+</nav>
+<!--/.Navbar-->
 
 <!--Mask-->
 
@@ -63,12 +78,7 @@
             </li>
         </ul>
     </div>
-
-    <!--/Intro content-->
 </div>
-
-<!--/.Mask-->
-    <!--/.Mask-->
 
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
