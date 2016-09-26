@@ -49,7 +49,7 @@ body,
 }
 
 .view {
-    background: url("http://wallpapercave.com/wp/vcN105S.png")no-repeat center center;
+    background: url("http://wallpapercave.com/wp/vcN105S.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,26 +76,6 @@ body,
     transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     opacity: 0.6;
-}
-
-#intro:hover
-{
-    transform: scale(1.3,1.3);
-    -webkit-transform: scale(1.3,1.3);
-}
-
-#intro{
-    transition: 3s;
-}
-
-#intro2:hover
-{
-    transform: scale(1.1,1.1);
-    -webkit-transform: scale(1.1,1.1);
-}
-
-#intro2{
-    transition: 3s;
 }
 
 #avatar:hover
@@ -152,20 +132,8 @@ span.material-icons.material-icons-refresh{
 
 .jumbotron {
     margin-bottom: 0;
-    background: url("http://66.media.tumblr.com/d8b5b20ed30f10c09ac94f03f931a132/tumblr_nolk5eYhKB1sy5pgbo1_1280.png")no-repeat center center fixed;
-
-    background-position: 0 60%;
-    background-size: cover;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.1em;
-    text-align: center;
-}
-
-#jumbotron2{
-
-    margin-bottom: 0;
-    background: url("http://wallpapers-and-backgrounds.net/wp-content/uploads/2016/02/flat-full-hd-wallpaper_1.jpg")no-repeat center center fixed;
-    background-position: 0 60%;
+    background: url("http://static.simpledesktops.com/uploads/desktops/2012/03/30/Tarmac.png")no-repeat center center fixed;
+    background-position: 0 25%;
     background-size: cover;
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
