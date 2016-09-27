@@ -71,13 +71,13 @@
 <div class="view hm-black-strong">
     <div class="full-bg-img flex-center">
         <ul>
-            <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="animated fadeIn"></a>
+            <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="wow fadeInUp"></a>
             <li>
-                <h1 class="wow fadeInUp">Placement Log</h1>
+                <h1 class="wow fadeInDown">Placement Log</h1>
                 <p class ="wow fadeInUp"><small>Created by</small></p>
-                <p class ="wow fadeInUp" id="intro">-Matt Stevenson-</p>
+                <p class ="wow fadeInDown" id="intro">-Matt Stevenson-</p>
             </li>
-            <li>
+            <li class="animated fadeIn">
                 <a href="viewLogs.html" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s"><i class="material-icons">list</i>View Logs </a><br>
                 <a href="createLog.html" class="btn btn-default btn-lg wow fadeInRight" data-wow-delay="0.2s"><i class="material-icons">create</i>Create Log </a>
             </li>
@@ -134,7 +134,7 @@
                     <!--Card image-->
                     <div class="view overlay hm-black-light">
                         <img src="viewlogs.jpg" id="viewlog" class="img-fluid image" alt="View Logs">
-                        <a>
+                        <a href="viewLogs.html">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -161,7 +161,7 @@
                     <!--Card image-->
                     <div class="view overlay hm-black-light">
                         <img src="createlog.jpg" id="createlog" class="img-fluid image" alt="Create a Log">
-                        <a>
+                        <a href="createLog.html">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -188,7 +188,7 @@
                     <!--Card image-->
                     <div class="view overlay hm-black-light">
                         <img src="feedback.jpg" class="img-fluid" alt="">
-                        <a>
+                        <a href="feedback.html">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -263,7 +263,7 @@
         <div class="row">
 
             <!--First column-->
-            <div class="col-md-3 offset-md-1">
+            <div class="col-md-4 offset-md-1">
                 <h5 class="title">Credited Sources:</h5>
                 <ul>
                     <li>
@@ -272,56 +272,13 @@
                 </ul>
             </div>
             <!--/.First column-->
-
-            <hr class="hidden-md-up">
-
-            <!--Second column-->
-            <div class="col-md-2 offset-md-1">
-                <h5 class="title">First column</h5>
-                <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            <!--/.Second column-->
-
-            <hr class="hidden-md-up">
-
-            <!--Third column-->
-            <div class="col-md-2">
-                <h5 class="title">Second column</h5>
-                <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            <!--/.Third column-->
-
-            <hr class="hidden-md-up">
-
-            <!--Fourth column-->
-            <div class="col-md-2">
-                <h5 class="title">Third column</h5>
-                <ul>
-                    <li><a href="#!">Link 1</a></li>
-                    <li><a href="#!">Link 2</a></li>
-                    <li><a href="#!">Link 3</a></li>
-                    <li><a href="#!">Link 4</a></li>
-                </ul>
-            </div>
-            <!--/.Fourth column-->
-
         </div>
     </div>
     <!--/.Footer Links-->
     <!--Copyright-->
     <div class="footer-copyright">
         <div class="container-fluid">
-            © Copyright 2016<a href="http://www.isarc.co.uk">   ISArc Limited.</a>
+          © Copyright 2016 <a href="http://www.isarc.co.uk">   ISArc Limited.</a>
 
         </div>
     </div>
@@ -346,7 +303,9 @@
 <script type="text/javascript" src="js/mdb.min.js"></script>
 
 <!--Google Maps-->
-<script src="http://maps.google.com/maps/api/js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <div id="map"></div>
 <script>

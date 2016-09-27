@@ -67,14 +67,12 @@ body,
 }
 
 #isarclogo {
-    transition: 1.5s;
+    transition: 1s;
     display: block;
     margin: 0 auto;
 }
 
 #isarclogo:hover {
-    transform: scale(1.1,1.1);
-    -webkit-transform: scale(1.1,1.1);
     opacity: 0.6;
 }
 
