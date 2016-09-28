@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Student Profile</title>
+    <title>Home Page</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,53 +28,333 @@
     <link href="css/style.css" rel="stylesheet">
 
 </head>
+
 <body>
 
+
 <!--Navbar-->
+
 <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar">
 
     <!-- Collapse button-->
+
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
         <i class="fa fa-bars"></i>
     </button>
 
     <!--Collapse content-->
+
     <div class="collapse navbar-toggleable-xs" id="collapseEx">
         <!--Links-->
         <ul class="nav navbar-nav smooth-scroll">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
-            </li>
             <li class="nav-item active">
-                <a class="nav-link" href="studentProfile.html"><i class="material-icons">face</i> </a>
+                <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="viewLogs.html"><i class="material-icons">list</i> </a>
+                <a class="nav-link" href="viewLogs.html" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="createLog.html"><i class="material-icons">create</i> </a>
+                <a class="nav-link" href="createLog.html" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="feedback.html"><i class="material-icons">mail</i> </a>
+                <a class="nav-link" href="feedback.html" data-toggle="tooltip" data-placement="bottom" title="Feedback"><i class="material-icons">mail</i> </a>
             </li>
         </ul>
     </div>
     <!--/.Collapse content-->
 </nav>
-<!--/.Navbar-->
-<div class="jumbotron text-center">
-    <br>
-    <br>
-    <br>
-    <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56"></a>
-    <h1 class="h1-responsive animated fadeIn"><b>Journal Log:</b></h1>
-    <h2 class="h1-responsive animated fadeIn"><b>Matt Stevenson</b></h2>
-    <br>
-    <br>
-</div>
-<br>
-<br>
-<br>
 
+<!--/.Navbar-->
+
+<!--Mask-->
+
+<div class="view hm-black-strong">
+    <div class="full-bg-img flex-center">
+        <ul>
+            <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="wow fadeInUp"></a>
+            <li>
+                <h1 class="wow fadeInDown">Placement Log</h1>
+                <p class ="wow fadeInUp"><small>Created by</small></p>
+                <p class ="wow fadeInDown" id="intro">-Matt Stevenson-</p>
+            </li>
+            <li class="animated fadeIn">
+                <a href="viewLogs.html" class="btn btn-primary btn-lg wow fadeInLeft" data-wow-delay="0.2s"><i class="material-icons">list</i>View Logs </a><br>
+                <a href="createLog.html" class="btn btn-default btn-lg wow fadeInRight" data-wow-delay="0.2s"><i class="material-icons">create</i>Create Log </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Main container-->
+<div class="container">
+    <div class="divider-new">
+
+        <h2 class="h2-responsive wow bounceIn">Hi, I'm Matt!</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="container" align="center">
+                <img class="img-thumbnail img-circle" id="avatar" src="avatar.jpg" alt="Photo of Me" height="150px" width="300px">
+            </div>
+        </div>
+        <div class="container" align="center">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <section id="greeting" class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+
+                        <h4>My name is Matt Stevenson, I'm 20 years old and I'm a third year student at the Ulster University, Coleraine. Currently, I'm out of Uni and on a one year placement - where I work and study in 'ISArc',
+                            an Information Systems firm who have taken on three voluntary placement students, including myself.</h4>
+                        <br>
+                        <h4>This Website has been created to store log entries of exercises I undertake during my placement at ISArc Ltd.</h4>
+                        <br>
+                        <br>
+                        <hr>
+                        <h5><small><i>“If you can't explain it to a six year old, you don't understand it yourself.” ― Albert Einstein</i></small></h5>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider-new">
+        <h2 class="h2-responsive wow fadeInDown">Website Features:</h2>
+    </div>
+
+    <section id="features">
+
+        <div class="row">
+
+            <!--First columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card wow fadeInUp">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-black-light">
+                        <img src="viewlogs.jpg" id="viewlog" class="img-fluid image" alt="View Logs">
+                        <a href="viewLogs.html">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">View all completed Journal logs.</h4>
+                        <a href="viewLogs.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow fadeInDown" data-wow-delay="0.1s">View Logs</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+
+            <!--Second columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card wow fadeInUp" data-wow-delay="0.2s">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-black-light">
+                        <img src="createlog.jpg" id="createlog" class="img-fluid image" alt="Create a Log">
+                        <a href="createLog.html">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Write a new Journal Log.</h4>
+                        <a href="viewLogs.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow fadeInDown" data-wow-delay="0.1s">Create Log</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Second columnn-->
+
+            <!--Third columnn-->
+            <div class="col-md-4">
+                <!--Card-->
+                <div class="card wow fadeInUp" data-wow-delay="0.4s">
+
+                    <!--Card image-->
+                    <div class="view overlay hm-black-light">
+                        <img src="feedback.jpg" class="img-fluid" alt="">
+                        <a href="feedback.html">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block text-xs-center">
+                        <!--Title-->
+                        <h4 class="card-title">Send me feedback via Email.</h4>
+                        <a href="feedback.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow fadeInDown" data-wow-delay="0.1s">Feedback</a>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+            </div>
+            <!--Third columnn-->
+        </div>
+
+    </section>
+    <!--/Section: Best features-->
+
+    <div class="divider-new">
+        <h2 class="h2-responsive wow fadeInUp">Need to get in touch?</h2>
+    </div>
+
+    <!--Section: Contact-->
+    <section id="contact">
+        <div class="row">
+            <!--First column-->
+            <div class="col-md-8">
+                <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 350px"></div>
+            </div>
+            <!--/First column-->
+
+            <!--Second column-->
+            <div class="col-md-4">
+                <ul class="text-xs-center">
+                    <li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
+                        <h4>ISArc Limited </h4>
+                        <h4>Ostix House, 1 Hillmans Court, Coleraine</h4>
+                        <h4>BT52 2DF</h4>
+                    </li>
+                    <hr>
+                    <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
+                        <h4>028 2073 1499 (07903631464)</h4>
+                    </li>
+                    <hr>
+                    <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-clock-o"></i>
+                        <h4>9am – 5pm</h4>
+                    </li>
+                    <hr>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
+                        <h4>matthew.stevenson@isarc.co.uk</h4>
+                    </li>
+                    <hr>
+                </ul>
+            </div>
+            <!--/Second column-->
+        </div>
+    </section>
+    <!--Section: Contact-->
+
+</div>
+<!--/ Main container-->
+<br>
+<!--Footer-->
+<footer class="page-footer center-on-small-only mdb-color darken-4">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-4 offset-md-1">
+                <h5 class="title">Credited Sources:</h5>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+            </div>
+            <!--/.First column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © Copyright 2016 <a href="http://www.isarc.co.uk">   ISArc Limited.</a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+<!--Google Maps-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+<div id="map"></div>
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCLZ9L9y3FPhCU0fcWVoyI6Cw7KL3AAr4&callback=initMap"
+        async defer></script>
+
+<script>
+    function init_map() {
+
+        var var_location = new google.maps.LatLng(55.132903, -6.656119);
+
+        var var_mapoptions = {
+            center: var_location,
+
+            zoom: 14
+        };
+
+        var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title: "New York"
+        });
+
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+
+        var_marker.setMap(var_map);
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+
+<!-- Animations init-->
+<script>
+    new WOW().init();
+</script>
+<!-- Tooltips -->
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 </body>
+
 </html>

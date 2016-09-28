@@ -137,3 +137,12 @@ span.material-icons.material-icons-refresh{
     text-shadow: black 0.1em 0.1em 0.1em;
     text-align: center;
 }
+
+.tooltip {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tooltip:hover {
+    opacity: 1;
+}
