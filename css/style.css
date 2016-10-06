@@ -49,7 +49,7 @@ body,
 }
 
 .view {
-    background: url("http://wallpapercave.com/wp/vcN105S.png")no-repeat center center fixed;
+    background: url("http://cdn.wallpapersafari.com/39/56/ESgNJ5.jpeg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,7 +67,7 @@ body,
 }
 
 #isarclogo {
-    transition: 1s;
+    transition: 2s;
     display: block;
     margin: 0 auto;
 }
@@ -78,8 +78,9 @@ body,
 
 #avatar:hover
 {
-    transform: scale(1.1,1.1);
-    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    opacity: 0.95;
 }
 
 #avatar{
@@ -111,22 +112,14 @@ body,
 }
 
 .top-nav-collapse {
-    background-color: #1C2331;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 footer.page-footer {
-    background-color: #1C2331;
+    background-color: rgb(0, 0, 0);
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #1C2331;
-    }
-}
 
-span.material-icons.material-icons-refresh{
-    vertical-align: middle !important;
-}
 
 .jumbotron {
     margin-bottom: 0;
@@ -145,4 +138,36 @@ span.material-icons.material-icons-refresh{
 
 .tooltip:hover {
     opacity: 1;
+}
+
+.btn,.form-control,.well {
+    border-radius:1px;
+    box-shadow:0 0 0;
+}
+
+.form-control {
+    border-color:#d7d7d7;
+}
+
+.btn-primary {
+    border-color:transparent;
+}
+
+.btn-primary, .list-group-item.active:focus {
+    background-color:#4285f4;
+}
+
+.btn-plus {
+    background-color:#ffffff;
+    border-width:1px;
+    border-color:#dddddd;
+    box-shadow:1px 1px 0 #999999;
+    border-radius:3px;color:#666666;
+    text-shadow:0 0 1px #bbbbbb;
+}
+
+.well,.panel {
+    border-color:#d2d2d2;
+    box-shadow:0 1px 0 #cfcfcf;
+    border-radius:3px;
 }
