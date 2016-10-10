@@ -15,7 +15,7 @@ body
 h1
 {
     font-family: Lobster, cursive;
-    text-shadow: 1px 1px rgba(39, 39, 39, 0.71);
+    text-shadow: 2px 2px rgba(39, 39, 39, 0.71);
 }
 
 h2
@@ -49,7 +49,7 @@ body,
 }
 
 .view {
-    background: url("http://cdn.wallpapersafari.com/39/56/ESgNJ5.jpeg")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/jjtcwse.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,16 +119,48 @@ footer.page-footer {
     background-color: rgb(0, 0, 0);
 }
 
-
-
 .jumbotron {
-    margin-bottom: 0;
-    background: url("http://static.simpledesktops.com/uploads/desktops/2012/03/30/Tarmac.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/lgzxooq.png")no-repeat center center fixed;
     background-position: 0 25%;
     background-size: cover;
     color: white;
     text-shadow: black 0.1em 0.1em 0.1em;
     text-align: center;
+    margin-bottom: 0;
+    height: 300px; !important
+}
+
+#jumbotronCreate{
+    background: url("https://linuxradar.files.wordpress.com/2014/06/pa5vc3d.png")no-repeat center center fixed;
+    background-position: 0 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    margin-bottom: 0;
+    height: 300px; !important
+}
+
+#jumbotronFeedback{
+    background: url("https://linuxradar.files.wordpress.com/2014/06/p81tvov.png")no-repeat center center fixed;
+    background-position: 0 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    margin-bottom: 0;
+    height: 300px; !important
+}
+
+
+#jumbotronContact{
+    background: url("https://linuxradar.files.wordpress.com/2014/06/ih9dnii.png")no-repeat center center fixed;
+    background-position: 0 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .tooltip {
@@ -140,34 +172,6 @@ footer.page-footer {
     opacity: 1;
 }
 
-.btn,.form-control,.well {
-    border-radius:1px;
-    box-shadow:0 0 0;
-}
-
-.form-control {
-    border-color:#d7d7d7;
-}
-
-.btn-primary {
-    border-color:transparent;
-}
-
-.btn-primary, .list-group-item.active:focus {
-    background-color:#4285f4;
-}
-
-.btn-plus {
-    background-color:#ffffff;
-    border-width:1px;
-    border-color:#dddddd;
-    box-shadow:1px 1px 0 #999999;
-    border-radius:3px;color:#666666;
-    text-shadow:0 0 1px #bbbbbb;
-}
-
-.well,.panel {
-    border-color:#d2d2d2;
-    box-shadow:0 1px 0 #cfcfcf;
-    border-radius:3px;
+#map-container{
+   margin-left: 30px;
 }

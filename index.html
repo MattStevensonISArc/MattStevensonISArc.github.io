@@ -19,14 +19,13 @@
     <link href="css/mdb.min.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lobster|Lobster+Two|Josefin+Slab|Changa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Baloo+Paaji|Cabin|Fjalla+One|Josefin+Slab|Lobster|Lobster+Two|Oleo+Script|Pacifico" rel="stylesheet">
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Custom CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -48,16 +47,22 @@
         <!--Links-->
         <ul class="nav navbar-nav smooth-scroll">
             <li class="nav-item active">
-                <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="#splashPage" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="viewLogs.html" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
+                <a class="nav-link" href="#jumbotron" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="createLog.html" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
+                <a class="nav-link" href="#jumbotronCreate" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="feedback.html" data-toggle="tooltip" data-placement="bottom" title="Feedback"><i class="material-icons">mail</i> </a>
+                <a class="nav-link" href="#jumbotronEdit" data-toggle="tooltip" data-placement="bottom" title="Edit Logs"><i class="material-icons">library_books</i> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#jumbotronFeedback" data-toggle="tooltip" data-placement="bottom" title="Feedback"><i class="material-icons">mail</i> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#jumbotronContact" data-toggle="tooltip" data-placement="bottom" title="Contact Us"><i class="material-icons">person_pin</i> </a>
             </li>
         </ul>
     </div>
@@ -68,7 +73,7 @@
 
 <!--Mask-->
 
-<div class="view hm-black-strong">
+<div class="view hm-black-light" id="splashPage">
     <div class="full-bg-img flex-center">
         <ul>
             <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="wow fadeInUp"></a>
@@ -80,8 +85,8 @@
                 <p class ="wow fadeInDown" id="intro">Matt Stevenson</p>
             </li>
             <li class="animated fadeIn">
-                <a href="viewLogs.html" class="btn btn-white-outline btn-md wow fadeInLeft"data-wow-delay="0.2s">View Logs  <i class="material-icons">list</i> </a><br>
-                <a href="createLog.html" class="btn btn-white-outline btn-md wow fadeInRight" data-wow-delay="0.2s">Create Log  <i class="material-icons">create</i></a>
+                <a href="#jumbotron" class="btn btn-primary btn-md wow fadeInLeft"data-wow-delay="0.2s">View Logs  <i class="material-icons">list</i> </a><br>
+                <a href="#jumbotronCreate" class="btn btn-default btn-md wow fadeInRight" data-wow-delay="0.2s">Create Log  <i class="material-icons">create</i></a>
             </li>
         </ul>
     </div>
@@ -112,8 +117,7 @@
                     <br>
                     This Website has been created with regards to a Level 3 Certificate in Web Design and Development (RQF), that I wish to obtain whilst here at ISArc.
                     During the course of a 6-8 week period, I will further develop this site to be a Log Entry site that can not only allow me to post up-to-date logs to my learning
-                    but allow them to be viewed collectively. I have also created a 'Feedback' page, which will allow any feedback to be sent to me as an email.
-
+                    but allow them to be viewed collectively, be edited and for Feedback to be sent me via email.
 <br>
                     <br>
                 </h4>
@@ -143,7 +147,7 @@
                     <!--Card image-->
                     <div class="view overlay hm-black-light">
                         <img src="viewlogs.jpg" id="viewlog" class="img-fluid image" alt="View Logs">
-                        <a href="viewLogs.html">
+                        <a href="v##logEntries">
                             <div class="mask"></div>
                         </a>
                     </div>
@@ -152,8 +156,8 @@
                     <!--Card content-->
                     <div class="card-block text-xs-center">
                         <!--Title-->
-                        <h4 class="card-title">View all completed Journal logs.</h4>
-                        <a href="viewLogs.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s">View Logs</a>
+                        <h4 class="card-title">View all Journal logs.</h4>
+                        <a href="#jumbotron" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s">View All Logs</a>
                     </div>
                     <!--/.Card content-->
 
@@ -180,7 +184,7 @@
                     <div class="card-block text-xs-center">
                         <!--Title-->
                         <h4 class="card-title">Write a new Journal Log.</h4>
-                        <a href="viewLogs.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s">Create Log</a>
+                        <a href="viewLogs.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s">Create New Log</a>
                     </div>
                     <!--/.Card content-->
 
@@ -207,7 +211,7 @@
                     <div class="card-block text-xs-center">
                         <!--Title-->
                         <h4 class="card-title">Send me feedback via Email.</h4>
-                        <a href="feedback.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s">Feedback</a>
+                        <a href="feedback.html" class="waves-effect waves-light btn-large btn btn-elegant btn-default wow bounceInUp" data-wow-delay="0.1s"> Send Feedback</a>
                     </div>
                     <!--/.Card content-->
 
@@ -218,40 +222,430 @@
         </div>
 
     </section>
-    <!--/Section: Best features-->
-
-    <div class="divider-new">
-        <h2 class="h2-responsive wow fadeInUp">Need to get in touch?</h2>
     </div>
+    <!--/Section: Best features-->
+    <br>
+    <div class="jumbotron text-center" id="jumbotron">
+        <br>
+        <br>
+        <h1 class="h1-responsive animated fadeIn"><b>Log Entries </b></h1>
+        <h3 class ="wow fadeInUp"><small>A collection of my logs</small></h3>
+        <br>
+        <br>
+        </div>
+<div>
 
+    <div class="container">
+        <div class="divider-new">
+            <table class="table table-hover table-striped table-lg">
+                <br>
+                <thead>
+                <tr>
+                    <th>User:</th>
+                    <th>Entry Title:</th>
+                    <th>Entry Number:</th>
+                    <th>Date Published:</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>HTML & CSS 1</td>
+                    <td>001</td>
+                    <td>08/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>HTML & CSS 2</td>
+                    <td>002</td>
+                    <td>14/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>HTML & GUI's</td>
+                    <td>003</td>
+                    <td>15/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>Internet Architecture</td>
+                    <td>004</td>
+                    <td>20/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>Internet Communication</td>
+                    <td>005</td>
+                    <td>28/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>Network Maintenance Issues</td>
+                    <td>006</td>
+                    <td>21/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                    <td>Matt Stevenson</td>
+                    <td>Principles of Internet Security</td>
+                    <td>007</td>
+                    <td>27/09/16</td>
+                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+<div>
+    </div>
+    </div>
+</div>
+<div class="jumbotron2 text-center" id="jumbotronCreate">
+    <br>
+    <br>
+    <br>
+    <br>
+            <h1 class="h1-responsive animated fadeIn"><b>Create a Log </b></h1>
+    <h3 class ="wow fadeInUp"><small>Write a new log to add to the list</small></h3>
+            <br>
+            <br>
+    <br>
+</div>
+        <div>
+<br>
+            <br>
+                    <div class="container">
+                            <div class="text-center">
+                                <div class="well">
+                                    <div class="input-group">
+                                        <input type="text" id="textArea" class="form-control input-sm chat-input" placeholder="Type your log here..."/>
+                                                <a href="#" class="btn btn-elegant bt-sm pull-right" onclick = "createLog()"><i class="material-icons">exit_to_app</i>Post</a>
+                                    </div>
+                                    <ul>
+                                        <li class="animated fadeIn">
+                                            <button id="show" class="btn btn-elegant btn-md wow fadeInUp pull-middle" data-wow-delay="0.2s">Open Logs <i class="material-icons"></i></button>
+                                            <button id="hide" class="btn btn-elegant-outline btn-md wow fadeInUp" data-wow-delay="0.2s">Hide Logs <i class="material-icons"></i></button>
+                                        </li>
+                                    </ul>
+                                    <hr data-brackets-id="12673">
+                                    <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar2" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>08/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 001: HTML & CSS 1</li>
+                                            <br>
+                                        <h6>Today is Thursday the 8th of September, thus far the other placement students and I have been imaging our MacBook Pro’s, downloading and installing programs relating to
+                                            the work we will be doing over the course of the year.
+
+                                            Today, Alan has tasked us with ‘HTML & CSS 1’, which asks us to “Make a webpage in a folder on your desktop using a text editor”. To begin with I have installed ‘PhpStorm’,
+                                            a commercial IDE for HTML, PHP and JavaScript. Using PhpStorm I created a New Project with a blank .html file called ‘index’, giving the document a ‘document type’ of ‘html’,
+                                            this informs the browser used to load the page what type of file is being loaded. I then added a structure to the document, using ‘html’, ‘head’ and ‘body’ tags, these tags allow
+                                            for a basic page layout and form the building blocks required to create the rest of the webpage.
+
+                                            From here I reverted back to my guidelines in which I’m asked to add several elements to the webpage, one of which was to include my name as a ‘header’. A header in html
+                                            is an element that offers a selection of text sizes to chose from, I used the ‘h1’ header tag although there are header tags h1 through to h6, h1 being the largest and h6
+                                            being the smallest. For my introductory paragraph I used ‘p’ tags to create the paragraph, the paragraph element differs from that of the header elements as it is used when
+                                            writing main body text that can be orientated by style sheets within the webpage, I set this element to ‘fixed-width’, so that it does not change no matter the size of the users
+                                            display. For the creation of a table within the webpage we have used ‘table’ tags with ‘tr’ tags for table rows, ‘th’ tags for table headings and ‘td’ for table data/contents,
+                                            I set this element to ‘fluid’, which allows the table to resize itself depending on the size of the users display. Creating a hyperlink for ‘W3 Schools’ was rather simple in that
+                                            using an ‘anchor’ tag ‘a’ and referencing a desired URL within quotations creates the hyperlink, then any text included will redirect the user to the destination upon clicking it.
+
+                                            In terms of CSS, I included a set of ‘style’ tags in the ‘head’ section of my HTML document, within these tags I have edited the webpage’s paragraph text using ‘font-family’ -
+                                            set to Arial and ‘font-size’ to ‘22px’, ‘padding-left’ set to ‘50px’ which pads the paragraph text 50 pixels from the left margin of the page, I also set ‘colour’ to white. For
+                                            headings ‘h2’ and ‘h3’ I set font to Arial and padding-left to ’10px’ and ‘20px’ respectively, with colour set to ‘ghostwhite’, for the ‘body’ of the document I set ‘background-colour’
+                                            to ‘grey’ - these colour names are preloaded into HTML and CSS and I did not use a Hexadecimal colour code to set them.
+
+                                            I used ‘Quicktime Player’ to create a new voice recording and record myself speaking aloud “Welcome to my Placement Log”. By default the file was saved as a ‘.m4a’ audio file,
+                                            something we weren't interested in as the assessment criteria asks that we include both a ‘.mp3’ file and a ‘.ogg’ file, having taken this into consideration I converted the file
+                                            to the appropriate file formats using a online converter and saved them to my Projects folder. To create the audio player I used ‘audio’ tags, using the ‘controls’ attribute to add
+                                            audio controls such as play and pause, embedded in the audio tags I referenced each audio file with sources ‘src’ and assigning them a ‘type’ of ‘/ogg’ and ‘/mpeg’ respectively.
+                                            To view my webpage in a browser format I’m using ‘localhost’, an HTML 5 API.
+                                        </h6>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar3" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>13/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 002: HTML & CSS 2</li>
+                                            <br>
+                                        <h6>Having completed HTML & CSS 1 with reasonable ease, we moved on to HTML & CSS 2. In this section I concentrated a lot more on the CSS of the webpage,
+                                            the first task was to apply a font change in CSS to an HTML element, I did this by firstly linking my style sheet to the html document in the ‘head’ section then using
+                                            ‘font-family’ and ‘font-size’ and set them to ‘Arial’ and ‘20px’ respectively. I then emboldened some text in this paragraph using ‘b’ tags, I added a background colour
+                                            to some of the text using ‘background-colour’ in CSS set to ‘yellow’, as well as a rounded border to a title in CSS setting it to ‘3px’, its style to ‘solid’ and the colour
+                                            to ‘red’, and finally setting ‘border-radius’ to ‘10px’ to create the rounded corners. Next up I created a ‘hover’ property and a transition effect on an image to make it
+                                            scale up to 110% of its original size. We we’re asked to create a transition effect of rotate and rotate Y, which we did originally but I removed this feature as it isn’t a
+                                            very appropriate transition for my webpage. We also created an overlay of position absolute and an unordered list with ‘li’ elements embedded within it with ‘button’ tags to
+                                            create a list of buttons.
+                                        </h6>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar4" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>14/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 003: HTML & GUI's</li>
+                                            <br>
+                                        <h6>In this exercise we experimented with a GUI and uploaded changes made within the GUI to a web server, we used BlueGriffon. Firstly, I entered a header to the page and changed
+                                            the font to Arial and the size to 24, I then added another table to the page with no contents. We uploaded our edits to the W3 schools validator to validate our projects and
+                                        </h6>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar5" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>20/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 004: Internet Architecture</li>
+                                            <br>
+                                        <h6>
+                                            Today we studied a multitude of topics relating to ‘Internet Architecture’, Internet Architecture is a term defining a vast number of networks interconnecting and
+                                            communicating with a common protocol. So what is a Client Server Network? A Client Server Network is a centralised network connected to a high performance machine,
+                                            called a ‘server’, the CSN acts as a ‘hub’ or focal point for other smaller and less powerful machines or nodes. A Client has certain requirements before it can operate,
+                                            one main essential is that it has a computer or other device to connect to, this device must contain a network card or be capable of connecting to a modem. A router is also
+                                            required for Client connectivity, many modern routers have a modem built into them, a browser is also a necessity.
+
+                                            Public Switched Telephone Network (PSTN) is a systematic telephone exchange which operates on an international scale, it transmits analogue voice data and signals using copper wires.
+
+                                            Integrated Services Digital Network (ISDN) is a set of standards for communication and transmission of data such as audio and video, ISDN operates on top of the PSDN.
+
+                                            Digital Subscriber Line (DSL) is in referral to a ‘modem’ something very common in most homes of the modern age, a DSL modem can be connected to a router and a broadband telephone
+                                            line in order to allow a computer or other device to access Internet services.
+
+                                            Internet Protocol (IP) is a protocol which allows for both sending and receiving data packets over the Internet, the protocol defines a format for data sent and received along with
+                                            deciding upon a method by which data is to be sent.
+
+                                            Open Systems Interconnection Model (OSI Model) is a conceptual model with 7 main layers, it characterises how applications can communicate over a network, allowing software programs
+                                            to operate together.
+
+                                            Point-of-Protocol (PPP) is a protocol which establishes a direct link between two machines, often simply one node connected to a server.
+
+                                            Ajax (JavaScript) is a script that allows communication between the client and a server without the need for a complete refresh of the page.
+                                            Point of Presence (POP) is an access point or interface point in which multiple networks connect to each other, often referring to a location or facility that allows nodes to connect
+                                            to the Internet.
+
+                                            Internet eXchange Point (IXP) is a network infrastructure that allows ISP’s to exchange internet traffic, there are a very limited amount of them in the world.
+
+                                            Domain Name Systems (DNS) is a naming system for computers or other devices with Internet connectivity, it looks up addresses using a naming structure of a prefix, subdomain, domain
+                                            name and an extension. ‘.com’ and the likes are top level domain names, ‘.co.uk' is a second level domain name.
+
+                                            Shared Domains are alterations of the subdomains part of an address, allowing separate parts of a server to be accessed using domain registrars e.g. https://finance.nowthis.tech.
+
+                                            Cloud Computing is a form of storing and processing data over the Internet without the use of a local server, instead, a variation of remote servers are used to host the network
+                                            and allow access from remote locations, it’s use is often associated with improved disaster recovery. One downside to Cloud computing is that a user must have Internet connectivity
+                                            in order to use it.
+
+                                            Rich Site Summary (RSS) also known as ‘Really Simple Syndication’ is content delivery method for blogs on the Internet, when content is distributed it is called an RSS feed.
+                                        </h6>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar6" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>21/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 005: Internet Communication</li>
+                                            <br>
+                                        <h6>In today’s world, there is very limited legislation with relevance to using or misusing the Internet and different forms of communication, although some legislation does exist in
+                                            that if a message sent over the Internet is forwarded with the intent to cause anxiety - it is illegal (Malicious Communications Act 1988).
+
+                                            Voice Over IP (VoIP) is a connection that allows a home telephone/landline to link with a mobile phone, with use of the Internet.
+
+                                            Presencing is a form of defining a devices location whilst connected to a server, whilst connected a location can be pinpointed to the server and information on a devices
+                                            whereabouts can be shared with other people and devices.
+
+                                            Mobile Computing is a wireless technology that allows the transmission of data and information with no physical connection to a server or network, data such as audio and video
+                                            can be shared from mobile to phones to remote locations around the world with use of the Internet.
+
+                                            Conversion Voice to Text is a complex technology which allows voice input to be converted to textual data on a computer, to be sent to a recipient.
+
+                                            Social Media is omnipresent in todays society and a lot of people around the world rely on it as a form of communication and marketing, having said this the forms of social
+                                            media available to us do not follow the exact same format when considering the content that they allow to be shared. For example, Twitter requires short, concise messages which are usually
+                                            posted with regards to general communication between friends or associates, whereas Youtube is one that requires planned and refined media production in the form of videos.
+
+                                            Rich Internet Applications (RIA) are web applications that work in the same manner as desktop applications, using plug-ins, RIA’s act as virtual machines to the browser - Adobe Flash
+                                            is one of the most used platforms currently.
+
+                                            Web-Orientated Architecture (WOA) is a software architecture which adds an extension to SOA (Software Oriented Architecture) in a manner that allows the creation of API’s and web-based
+                                            user interfaces for various levels of distribution.
+
+                                            Social Web is a form of linking people and their devices on the Internet, people with similar interests and tastes can communicate and view or share things depending on what platform
+                                            they use.
+
+                                            Mashup is when two systems are used to create one functional product, two or more services can be joined together to allow one common goal to be achieved.
+
+                                            Blogs (RSS) are webpages that are updated on a regular basis with new content and information often used for the means of discussion or conversation between a group of registered users.
+                                            Blogs can be linked using an RSS feed.
+
+                                            Folksonomies are a means of searching a data store using textual properties, such as a hashtag - used by Twitter and Instagram to allow users to refine their news feeds with material
+                                            they may be interested in. A hashtag is used in order to link users with similar posts and can be searched on the site, a folksonomy is a hashtag that has been created by a user and usually has
+                                            little or no baring to anything else on the site, unlike common hashtag categories.
+
+                                        </h6>
+                                        <hr>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar7" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>27/09/2016</small>
+                                        <br>
+                                        <li class="ui-state-default">Log 006: Network & Maintenance Issues</li>
+                                            <br>
+                                        <h6>Whilst using a computer, for recreational purposes or as a profession, ensuring security and protecting our devices from the dangers of being connected to the Internet poses is absolutely vital.
+                                            When using the Internet protecting our computers from counter attacks is of utmost importance, keeping PC’s up to date with the newest updates and security patches helps to fend off malicious attacks
+                                            which may have been capable of doing damage to your machine otherwise. A lot of users like to utilise IDS’s - Intruder Detection Systems along with that of a built-in Firewall, an IDS is somewhat similar
+                                            to a Firewall in the fact they both detect for intrusion on a network, but do it in different ways. An IDS analyses all inbound and outbound activity on a network and flags up anything that may appear
+                                            to be of a malicious origin or an intrusive entity, if an intrusion attempt has been made the IDS signals to the user and notifies them of suspicious activity on the network, even if the attack has
+                                            originated from within the network itself. When using a Firewall to protect against counter attacks, the Firewall will observe the networks status and upon discovering an abnormality attempting to
+                                            access the network, it will attempt to stop it - the main difference here is that the Firewall will monitor network traffic and attempt to prevent security breaches as they attempt to gain unauthorised access,
+                                            but using an IDS can analyse a security risk from within the network if it has already gained access or if it originated from within the network itself. Closing unused or non-essential ports on a network is also
+                                            crucial in the prevention of hackers and security breaches, ports that are not being used can allow for hackers to gain access and make changes to configurations or distribute content throughout the network.
+                                            If a network has been experiencing performance issues, abnormal decrease in network speed or connectivity, you may wish to inspect the network closely and attempt to diagnose if there is any unauthorised
+                                            or malicious activity present on the network that may have gone unnoticed, remaining vigilant when your network is experiencing issues is essential. To ensure utmost data security when operating a functioning
+                                            network in a workplace, all staff and users must be equip with the appropriate training and knowledge of the risks at hand, and of possible prevention measures that can be taken in order to relieve the system of a
+                                            security breach - training in these areas will allow for better maintenance of the network and in turn decrease the volumes of stress the network will have to experience due to staff being knowledgeable of Internet and data security procedures.
+
+                                            There are a multitude of measures that can be taken to prevent counter attacks to your network, but what if you have already been attacked, or one of your prevention procedures has failed? The first thing to do in any
+                                            case of an attack is to determine the type of attack that has been posed to the network, along with its location - this can be done in a multitude of ways but if the devices IP address is available, it can be used to
+                                            pinpoint the attackers location and the address can be blocked and blacklisted from the network. If the attack is indeed an internal attack and has spawned from within the network itself it is advised that all affected
+                                            units are immediately disconnected from the network. One form of attack which is considered to be extremely detrimental to the wellbeing of a network is a DDoS (Distributed Denial of Service) attack, a DDoS attack describes
+                                            the flooding of traffic to a network from lots of different devices, this usually occurs when a host computer has been infected with some kind of malicious virus - often a Trojan, which allows a hacker or suspect behind
+                                            the attack to control the traffic flow to the targeted system. The reasoning for a DDoS attack and not simply a DoS attack is that a DoS attack is essentially the same but the traffic comes from only one device, allowing
+                                            blocking the IP address of the computer to be an effective means in which to stop the attack at its source, in a DDoS attack as mentioned the traffic pours in from many different sources, often in the hundreds or possibly
+                                            thousands of PC’s in different locations are all requesting from the network, clogging it with traffic. A DDoS attack is very difficult to stop as it is extremely difficult to distinguish legitimate network traffic from
+                                            malicious traffic inbound to the network - in the case of a DDoS attack you must contact your Internet Service Provider (ISP) immediately for further instruction and assistance. When the attack has been blocked or interrupted
+                                            a direct backup of all significant data should be made urgently, along with diagnostics being undertaken in the manner of finding the attacks source, type and intention to further prevent future attacks of the same description.
+                                            If any data was affected during the attack, lost, stolen or data altered in any way it must be noted and possibly quarantined within the system - any backups that have been made in recent times should be used to reconstruct the system if damage has been caused.
+                                            A routine should be in order to reinstall operating systems on affected devices, but it also seen as good practice to reinstall OS on devices which have not been affected, even if there has been no attack. Stakeholders that have significant baring to the
+                                            company or the relevant system that has been affected should be contacted and informed of the incident as soon as possible to allow them to make important decisions regarding their involvement or to initiate an appropriate solution to the problem.
+
+                                            What is Social Engineering? What are the risks it poses to our security, and how can we combat it in the most appropriate possible manner? Well, the term ‘social engineering’ is simply defining the act of manipulating a person or group of
+                                            people in order to gain access to confidential information. A ‘social engineer’ is someone who intentional attempts to deceive someone into giving up their personal information, often passwords, bank details or for access to a device or network with
+                                            intent to distribute malicious software - to then carry out criminal activity. Social engineering attacks can be directed in many different ways, you may be asked for information that is confidential, or only being available to certain authorised users -
+                                            if the person requesting this information is unknown to you, or seems to be posing as someone else, do ensure not to make any contact with them. Social engineering attacks often take the form of someone attempting to gain information about a person or a
+                                            business, in order to prove legitimacy when contacting others to gain access to a body of information, ensuring you keep your wits about you and deter from responding to the likes of suspicious emails known as ‘phishing’ is a good way in which to avoid
+                                            your information falling into the wrong hands.
+
+                                            So, how exactly can we prevent social engineering? In the case of someone making a request to access information which has been made confidential and not available to the general public, they must be identified. Identifying
+                                            someone who aims to carry out a socially engineered attack is of utmost importance, as anyone who can be identified can be flagged and be blocked from future contact. When users of a system are dealing with unidentified requests
+                                            from a suspicious origin, they must always follow security procedures and be trained to be knowledgeable of criminal ongoings, along with how to identify possible attacks. If you have been contacted via telephone, persons or businesses
+                                            often call back the source  from a customer service line, in order to confirm the legitimacy of the call - if you are unsure about something regarding your personal information or the information that is being hosted on a network by your business,
+                                            do always make sure to attempt to confirm its legitimacy. In the case of someone contacting you with information specific to you, ensure to make changes to any authentication requirements such as passwords or PIN numbers to disallow any further
+                                            information being leaked to unauthorised persons. If you have noticed suspicious activity on your computer or network, always make thorough checks on your anti-virus software and security logs to confirm this.
+
+                                            Symmetric Encryption:
+                                            A type of encryption which uses a ‘key’ to alter text or messages when being sent over the Internet, this key is available to not only the sender but the recipient of a message as the message is ‘decrypted’ upon arrival at its destination.
+
+                                            Asymmetric Encryption:
+                                            A different manner of encryption which uses a ‘public’ key, which encrypts data before it is sent to the recipient, upon arrival it cannot be decrypted without the use of a ‘private key’ which belongs only to the person receiving the message.
+                                            This way, a user can encrypt a message and send it to someone else using a public key, but it cannot be decrypted unless a specific ‘private’ key is available to the recipient.
+
+                                        </h6>
+                                        <hr>
+                                        <div class="container" align="left">
+                                            <img class="img-circle" id="avatar8" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font">Matt Stevenson</strong>
+                                        </div>
+                                        <small class="pull-right text-muted">
+                                            <span class=""><i class="material-icons">watch_later</i></span>28/09/2016</small>
+                                        <div id="contentOutput">
+
+                                        </div>
+                                        <div id="nameOutput">
+
+                                        </div>
+                                        <div id="dateOutput">
+
+                                        </div>
+                                        <br>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron3 text-center" id="jumbotronFeedback">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="h1-responsive animated fadeIn"><b>Feedback </b></h1>
+    <h3 class ="wow fadeInUp"><small>All Feedback is appreciated!</small></h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+<br>
+<br>
+
+
+
+
+
+<div class="jumbotron4 text-center" id="jumbotronContact">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="h1-responsive animated fadeIn"><b>Contact Us </b></h1>
+    <h3 class ="wow fadeInUp"><small>Need to get in touch?</small></h3>
+    <br>
+<div>
+    <br>
     <!--Section: Contact-->
     <section id="contact">
         <div class="row">
             <!--First column-->
             <div class="col-md-8">
-                <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 350px"></div>
+                <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 400px"></div>
             </div>
             <!--/First column-->
-
-            <!--Second column-->
             <div class="col-md-4">
                 <ul class="text-xs-center">
                     <li class="wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-map-marker"></i>
-                        <h4>ISArc Limited </h4>
-                            <h4>Ostix House, 1 Hillmans Court, Coleraine</h4>
-                            <h4>BT52 2DF</h4>
+                        <h5>ISArc Limited </h5>
+                            <h5>Ostix House, 1 Hillmans Court, Coleraine</h5>
+                            <h5>BT52 2DF</h5>
                     </li>
                     <hr>
                     <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-phone"></i>
-                        <h4>028 2073 1499 (07903631464)</h4>
+                        <h5>028 2073 1499 (07903631464)</h5>
                     </li>
                     <hr>
                     <li class="wow fadeInUp" data-wow-delay="0.3s"><i class="fa fa-clock-o"></i>
-                        <h4>9am – 5pm</h4>
+                        <h5>9am – 5pm</h5>
                     </li>
                     <hr>
                     <li class="wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-envelope"></i>
-                        <h4>matthew.stevenson@isarc.co.uk</h4>
+                        <h5>matthew.stevenson@isarc.co.uk</h5>
                     </li>
                     <hr>
                 </ul>
@@ -260,6 +654,7 @@
         </div>
     </section>
     <!--Section: Contact-->
+    <!--Mask-->
 
 </div>
 <!--/ Main container-->
@@ -301,6 +696,9 @@
 
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script>
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+    </script>
 
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="js/tether.min.js"></script>
@@ -364,6 +762,66 @@
         $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
+    <script>
+    $(document).ready(function() {
+        $("#hide").click(function () {
+            $("h6").hide();
+        });
+        $("#show").click(function () {
+            $("h6").show();
+        });
+    });
+        </script>
+    <script>
+        function log(name, content, entryDate){
+            this.logName = name;
+            this.logContent = content;
+            this.logDate = entryDate;
+        }
+        function checkTags(content){
+            if(content.search('<') >= 0) {
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        function checkContent(content){
+            return Boolean(content);
+        }
+        function createLog() {
+            if (document.getElementById("textArea") == null) {
+                alert("Text Box doesn't exist.");
+            }
+            else {
+                var content = document.getElementById("textArea").value;
+                var hasContent = checkContent(content);
+                if (hasContent) {
+                    var hasTags = checkTags(content);
+                    if (hasTags) {
+                        alert("You have entered Tags, please remove them.")
+                    }
+                    else {
+                        var promptResponse = prompt("Log Name:");
+                        var date = new Date();
+                        var today = date.getDate();
+                        alert(today);
+                        var logEntry = new log(promptResponse, content, today);
+                        localStorage.setItem(promptResponse, JSON.stringify(logEntry));
+                        var retrieveLog = JSON.parse(localStorage.getItem(promptResponse));
+                        document.getElementById("contentOutput").innerText = retrieveLog.logContent;
+                        document.getElementById("nameOutput").innerText = retrieveLog.logName;
+                        document.getElementById("dateOutput").innerText = retrieveLog.logDate;
+                    }
+                }
+                else
+                {
+                    alert("Nothing has been entered.");
+                }
+            }
+        }
+    </script>
+    </div>
 </body>
 
 </html>
