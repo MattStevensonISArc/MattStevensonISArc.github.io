@@ -499,7 +499,6 @@
 
                                         </h6>
                                         <hr>
-                                        <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar7" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
                                             <strong class="primary-font">Matt Stevenson</strong>
@@ -581,9 +580,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                </div>
-            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
@@ -603,6 +599,78 @@
     <br>
     <br>
     </div>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12 col-lg-offset-2">
+            <br>
+            <br>
+
+            <form id="contact-form" method="post" action="contact.php" role="form">
+
+                <div class="messages"></div>
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <h4 for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <h4 for="form_lastname">Surname *</h4>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your surname *" required="required" data-error="Surname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <h4 for="form_email">Email Address *</h4>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <h4 for="form_phone">Phone Number</h4>
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <h4 for="form_message">Feedback *</h4>
+                                <textarea id="form_message" name="message" class="form-control" placeholder=" Any thoughts? *" rows="4" required="required" data-error="Please, leave me some feedback."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="text-muted">Fields with a<strong> * </strong>are required.</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
 <br>
 <br>
 
@@ -804,7 +872,7 @@
                     else {
                         var promptResponse = prompt("Log Name:");
                         var date = new Date();
-                        var today = date.getDate();
+                        var today = date.GetDate();
                         alert(today);
                         var logEntry = new log(promptResponse, content, today);
                         localStorage.setItem(promptResponse, JSON.stringify(logEntry));
@@ -821,6 +889,38 @@
             }
         }
     </script>
+    <script>
+    $(function () {
+
+    $('#contact-form').validator();
+
+    $('#contact-form').on('submit', function (e) {
+    if (!e.isDefaultPrevented()) {
+    var url = "contact.php";
+
+    $.ajax({
+    type: "POST",
+    url: url,
+    data: $(this).serialize(),
+    success: function (data)
+    {
+    var messageAlert = 'alert-' + data.type;
+    var messageText = data.message;
+
+    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+    if (messageAlert && messageText) {
+    $('#contact-form').find('.messages').html(alertBox);
+    $('#contact-form')[0].reset();
+    }
+    }
+    });
+    return false;
+    }
+    })
+    });
+    </script>
+    <script src="validator.js"></script>
+    <script src="contact.js"></script>
     </div>
 </body>
 

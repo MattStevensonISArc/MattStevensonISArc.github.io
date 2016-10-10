@@ -3,7 +3,15 @@ main
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
-
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
 body
 {
     font-family: Josefin Slab, cursive;
