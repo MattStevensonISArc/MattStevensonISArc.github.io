@@ -50,7 +50,7 @@
                 <a class="nav-link" href="#splashPage" data-toggle="tooltip" data-placement="bottom" title="Home"><i class="material-icons">home</i><span class="sr-only">(current)</span> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#jumbotron" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
+                <a class="nav-link" href="#jumbotron1" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#jumbotronCreate" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
@@ -85,7 +85,7 @@
                 <p class ="wow fadeInDown" id="intro">Matt Stevenson</p>
             </li>
             <li class="animated fadeIn">
-                <a href="#jumbotron" class="btn btn-primary btn-md wow fadeInLeft"data-wow-delay="0.2s">View Logs  <i class="material-icons">list</i> </a><br>
+                <a href="#jumbotron1" class="btn btn-primary btn-md wow fadeInLeft"data-wow-delay="0.2s">View Logs  <i class="material-icons">list</i> </a><br>
                 <a href="#jumbotronCreate" class="btn btn-default btn-md wow fadeInRight" data-wow-delay="0.2s">Create Log  <i class="material-icons">create</i></a>
             </li>
         </ul>
@@ -223,17 +223,19 @@
 
     </section>
     </div>
+
     <!--/Section: Best features-->
+<div class="jumbotron1 text-center" id="jumbotron1">
     <br>
-    <div class="jumbotron text-center" id="jumbotron">
-        <br>
-        <br>
-        <h1 class="h1-responsive animated fadeIn"><b>Log Entries </b></h1>
-        <h3 class ="wow fadeInUp"><small>A collection of my logs</small></h3>
-        <br>
-        <br>
-        </div>
-<div>
+    <br>
+    <br>
+    <br>
+    <h1 class="h1-responsive animated fadeIn"><b>Log Entries </b></h1>
+    <h3 class ="wow fadeInUp"><small>A collection of all my logs</small></h3>
+    <br>
+    <br>
+    <br>
+</div>
 
     <div class="container">
         <div class="divider-new">
@@ -254,49 +256,63 @@
                     <td>HTML & CSS 1</td>
                     <td>001</td>
                     <td>08/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log001" data-toggle="tooltip" data-placement="bottom" title="Log 001"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>HTML & CSS 2</td>
                     <td>002</td>
                     <td>14/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log002" data-toggle="tooltip" data-placement="bottom" title="Log 002"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>HTML & GUI's</td>
                     <td>003</td>
                     <td>15/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log003" data-toggle="tooltip" data-placement="bottom" title="Log 003"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>Internet Architecture</td>
                     <td>004</td>
                     <td>20/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log004" data-toggle="tooltip" data-placement="bottom" title="Log 004"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>Internet Communication</td>
                     <td>005</td>
                     <td>28/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log005" data-toggle="tooltip" data-placement="bottom" title="Log 005"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>Network Maintenance Issues</td>
                     <td>006</td>
                     <td>21/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log006" data-toggle="tooltip" data-placement="bottom" title="Log 006"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 <tr>
                     <td>Matt Stevenson</td>
                     <td>Principles of Internet Security</td>
                     <td>007</td>
                     <td>27/09/16</td>
-                    <td><a href="#"></a><i class="fa fa-search" aria-hidden="true"></i></td>
+                    <td class="logItem">
+                        <a href="##log007" data-toggle="tooltip" data-placement="bottom" title="Log 007"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </td>
                 </tr>
                 </tbody>
             </table>
@@ -305,7 +321,6 @@
 <div>
     </div>
     </div>
-</div>
 <div class="jumbotron2 text-center" id="jumbotronCreate">
     <br>
     <br>
@@ -337,12 +352,12 @@
                                     <ul data-brackets-id="12674" id="sortable" class="list-unstyled ui-sortable">
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar2" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log001">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>08/09/2016</small>
                                         <br>
-                                        <li class="ui-state-default">Log 001: HTML & CSS 1</li>
+                                        <li class="ui-state-default" id="#001">Log 001: HTML & CSS 1</li>
                                             <br>
                                         <h6>Today is Thursday the 8th of September, thus far the other placement students and I have been imaging our MacBook Pro’s, downloading and installing programs relating to
                                             the work we will be doing over the course of the year.
@@ -374,7 +389,7 @@
                                         <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar3" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log002">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>13/09/2016</small>
@@ -393,7 +408,7 @@
                                         <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar4" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log003">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>14/09/2016</small>
@@ -406,7 +421,7 @@
                                         <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar5" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log004">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>20/09/2016</small>
@@ -455,7 +470,7 @@
                                         <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar6" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log005">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>21/09/2016</small>
@@ -501,7 +516,7 @@
                                         <hr>
                                         <div class="container" align="left">
                                             <img class="img-circle" id="avatar7" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <strong class="primary-font" id="#log006">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
                                             <span class=""><i class="material-icons">watch_later</i></span>27/09/2016</small>
@@ -560,20 +575,27 @@
                                         </h6>
                                         <hr>
                                         <div class="container" align="left">
-                                            <img class="img-circle" id="avatar8" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                                            <strong class="primary-font">Matt Stevenson</strong>
+                                            <img class="img-circle" id="avatarNew" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                                            <strong class="primary-font" id="#log007">Matt Stevenson</strong>
                                         </div>
                                         <small class="pull-right text-muted">
-                                            <span class=""><i class="material-icons">watch_later</i></span>28/09/2016</small>
-                                        <div id="contentOutput">
+                                            <span class=""><i class="material-icons">watch_later</i></span>
+                                            <div id="dateOutput">
 
-                                        </div>
+                                            </div>
+                                            </small>
+                                        <br>
+                                        <li class="ui-state-default"></li>
                                         <div id="nameOutput">
+                                        <br>
 
                                         </div>
-                                        <div id="dateOutput">
+                                        <br>
+                                        <h6>
+                                            <div id="contentOutput">
 
-                                        </div>
+                                            </div>
+                                        </h6>
                                         <br>
                                     </ul>
                                 </div>
@@ -857,6 +879,11 @@
         function checkContent(content){
             return Boolean(content);
         }
+
+        log.prototype.save=function(){
+            localStorage.save(this.logName, JSON.stringify(this));
+        }
+
         function createLog() {
             if (document.getElementById("textArea") == null) {
                 alert("Text Box doesn't exist.");
@@ -867,14 +894,13 @@
                 if (hasContent) {
                     var hasTags = checkTags(content);
                     if (hasTags) {
-                        alert("You have entered Tags, please remove them.")
+                        alert("You have entered < > tags, please remove them.")
                     }
                     else {
-                        var promptResponse = prompt("Log Name:");
+                        var promptResponse = prompt("Name your Log:");
                         var date = new Date();
-                        var today = date.GetDate();
-                        alert(today);
-                        var logEntry = new log(promptResponse, content, today);
+                        alert(date);
+                        var logEntry = new log(promptResponse, content, date);
                         localStorage.setItem(promptResponse, JSON.stringify(logEntry));
                         var retrieveLog = JSON.parse(localStorage.getItem(promptResponse));
                         document.getElementById("contentOutput").innerText = retrieveLog.logContent;
@@ -884,7 +910,7 @@
                 }
                 else
                 {
-                    alert("Nothing has been entered.");
+                    alert("No Content");
                 }
             }
         }

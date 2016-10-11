@@ -3,16 +3,16 @@
 // configure
 $from = 'Demo contact form <matthew.stevenson@isarc.co.uk>';
 $sendTo = 'Demo contact form <matthew.stevenson@isarc.co.uk>';
-$subject = 'Feedback from your Website:';
+$subject = 'Feedback from your Website';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' =>
-$okMessage = 'Thank you for your feedback, I hope to get back to you soon!');
-$errorMessage = 'Feedback could not be posted, please try again later.';
+$okMessage = 'Thank you for your feedback, I hope to get back to you ASAP!');
+$errorMessage = 'There was an error while submitting the form. Please try again later';
 
 // let's do the sending
 
 try
 {
-    $emailText = "The following user posted feedback to your Placement Log:\n\n";
+    $emailText = "New Feedback from Website\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
