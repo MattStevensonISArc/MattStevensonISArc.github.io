@@ -115,6 +115,7 @@
 <br>
 <br>
 <br>
+
 <div class="container">
     <div class="divider-new">
         <h4 class="h2-responsive wow fadeInDown"><small>Hi, I'm Matt!</small></h4>
@@ -344,6 +345,7 @@
     <br>
     <br>
 </div>
+
 <div>
     <br>
     <br>
@@ -700,7 +702,7 @@
                     <hr>
                     <br>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-7">
                             <div class="form-group">
                                 <h4 for="form_message">Feedback *</h4>
                                 <textarea id="form_message" name="message" class="form-control" placeholder=" Any thoughts? *" rows="4" required="required" data-error="Please, leave me some feedback."></textarea>
@@ -726,12 +728,11 @@
     </div>
 
 </div>
+<section class="container">
+    <a href="#splashPage"><img src="up-arrowFlat.png" class="scrollToTop wow fadeIn" id="upArrowPageTop" width="30" height="30"></a>
+</section>
 <br>
 <br>
-
-
-
-
 
 <div class="jumbotron4 text-center" id="jumbotronContact">
     <br>
@@ -747,7 +748,7 @@
         <section id="contact">
             <div class="row">
                 <!--First column-->
-                <div class="col-md-8">
+                <div class="col-md-7">
                     <div id="map-container" class="z-depth-1 wow fadeInUp" style="height: 400px"></div>
                 </div>
                 <!--/First column-->
@@ -877,8 +878,30 @@
     <script>
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
     </script>
+        <script>
+        $(document).ready(function(){
 
-    <!-- Bootstrap tooltips -->
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+        $('.scrollToTop').fadeIn();
+        } else {
+        $('.scrollToTop').fadeOut();
+        }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+        });
+
+        });
+        </script>
+
+
+
+        <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/tether.min.js"></script>
 
     <!-- Bootstrap core JavaScript -->
