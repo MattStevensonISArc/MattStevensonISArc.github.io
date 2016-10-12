@@ -43,6 +43,10 @@ p
     font-family: Amatic SC, cursive;
     font-size: 32px;
 }
+h5{
+    font-family: Josefin Slab, cursive;
+    font-size: 22px; !important
+}
 
 html,
 body,
