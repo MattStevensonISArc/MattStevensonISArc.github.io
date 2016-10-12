@@ -64,10 +64,9 @@ h3
     font-size: 32px;
 }
 
-h4
-{
+h4, td, tr, th {
     font-family: Josefin Slab, cursive;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p
