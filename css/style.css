@@ -86,6 +86,49 @@ body,
     transition: 1s;
 }
 
+#avatar1:hover
+{
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05,1.05);
+}
+
+#avatar1{
+    transition: 1s;
+}
+
+#viewLogsIcon{
+    transition: 0.5s;
+}
+
+
+#viewLogsIcon:hover
+{
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05,1.05);
+    opacity: 0.9;
+}
+#createLogIcon{
+    transition: 0.5s;
+}
+
+
+#createLogIcon:hover
+{
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05,1.05);
+    opacity: 0.9;
+}
+#sendFeedbackIcon{
+    transition: 0.5s;
+}
+
+
+#sendFeedbackIcon:hover
+{
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05,1.05);
+    opacity: 0.9;
+}
 
 .ul{
     align-items: center
