@@ -6,10 +6,6 @@ main
 label {
     color: #333;
 }
-.btn-send {
-    letter-spacing: 0.1em;
-    margin-bottom: 10px;
-}
 body
 {
     font-family: Josefin Slab, cursive;
@@ -55,7 +51,7 @@ body,
 }
 
 .view {
-    background: url("https://linuxradar.files.wordpress.com/2014/06/jjtcwse.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/ih9dnii.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,12 +60,6 @@ body,
 
 .flex-center {
     color: #fff;
-}
-
-.extra-margins
-{
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
 }
 
 #isarclogo {
@@ -84,26 +74,17 @@ body,
 
 #avatar:hover
 {
-    transform: scale(1.2,1.2);
-    -webkit-transform: scale(1.2,1.2);
-    opacity: 0.95;
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05,1.05);
 }
 
 #avatar{
-    transition: 3s;
+    transition: 1s;
 }
 
-.list-inline li{
-    display:inline-block;
-
-}
 
 .ul{
     align-items: center
-}
-
-#ddheader{
-    font-size: 16px;
 }
 
 /* Navigation*/
@@ -121,12 +102,20 @@ body,
     background-color: rgba(0, 0, 0, 0.85);
 }
 
-footer.page-footer {
-    background-color: rgb(0, 0, 0);
+#jumbotron0 {
+    background: url("https://linuxradar.files.wordpress.com/2014/06/jjtcwse.png")no-repeat center center fixed;
+    background-position: 0 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    text-align: center;
+    margin-bottom: 0;
+    height: 450px; !important
+
 }
 
 #jumbotron1 {
-    background: url("https://linuxradar.files.wordpress.com/2014/06/lgzxooq.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/rvffd91.png")no-repeat center center fixed;
     background-position: 0 25%;
     background-size: cover;
     color: white;
@@ -134,6 +123,7 @@ footer.page-footer {
     text-align: center;
     margin-bottom: 0;
     height: 300px; !important
+
 }
 
 #jumbotronCreate{
@@ -148,7 +138,7 @@ footer.page-footer {
 }
 
 #jumbotronFeedback{
-    background: url("https://linuxradar.files.wordpress.com/2014/06/p81tvov.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/dfbyxjx.png")no-repeat center center fixed;
     background-position: 0 25%;
     background-size: cover;
     color: white;
@@ -160,7 +150,7 @@ footer.page-footer {
 
 
 #jumbotronContact{
-    background: url("https://linuxradar.files.wordpress.com/2014/06/ih9dnii.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/tz3tfwt.png")no-repeat center center fixed;
     background-position: 0 25%;
     background-size: cover;
     color: white;
@@ -171,7 +161,6 @@ footer.page-footer {
 
 .tooltip {
     opacity: 0;
-    transition: opacity 0.5s;
 }
 
 .tooltip:hover {
@@ -180,4 +169,157 @@ footer.page-footer {
 
 #map-container{
    margin-left: 30px;
+}
+
+
+/*icons*/
+
+
+.wrapper,.copyright {
+    padding: 20px;
+    text-align: center;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+    font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+    border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+    border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+    border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+    color: #FFF;
+    -webkit-box-shadow: 1px 1px 3px #333;
+    -moz-box-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons .fa-adn{background-color:#504e54;}
+.social-icons .fa-apple{background-color:#aeb5c5;}
+.social-icons .fa-android{background-color:#A5C63B;}
+.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;}
+.social-icons .fa-bitcoin,.social-icons .fa-btc{background-color:#F7931A;}
+.social-icons .fa-css3{background-color:#1572B7;}
+.social-icons .fa-dribbble{background-color:#F46899;}
+.social-icons .fa-dropbox{background-color:#018BD3;}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.social-icons .fa-flickr{background-color:#FF0084;}
+.social-icons .fa-foursquare{background-color:#0086BE;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-html5{background-color:#E54D26;}
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color:#333;}
+.social-icons .fa-maxcdn{background-color:#F6AE1C;}
+.social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}
+.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#CC2127;}
+.social-icons .fa-renren{background-color:#025DAC;}
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-stack-exchange{background-color:#245590;}
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+.social-icons .fa-trello{background-color:#265A7F;}
+.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.social-icons .fa-vimeo-square{background-color:#229ACC;}
+.social-icons .fa-vk{background-color:#375474;}
+.social-icons .fa-weibo{background-color:#D72B2B;}
+.social-icons .fa-windows{background-color:#12B6F3;}
+.social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+
+
+
+
+
+
+
+
+
+
+
+
+.me {
+    display: block;
+    margin: 2em auto;
+    margin-bottom: 3em;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.social {
+    text-align: center;
+    font-size: 2.5em;
+    color: #555;
+    overflow: hidden;
+}
+.social a {
+    color: inherit;
+    text-decoration: none;
+}
+.social i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+}
+.social i:hover {
+    margin-top: -1px;
+}
+.social i#twitter:hover {
+    color: #77DDF6;
+}
+.social i#github:hover {
+    color: black;
+}
+.social i#linkedin:hover {
+    color: #0177B5;
+}
+.social i#code:hover {
+    color: #29A329;
+}
+.social i#stack:hover {
+    color: #ED780E;
+}
+.social i#plus:hover {
+    color: #D43402;
+}
+.social i#mail:hover {
+    color: #F7B401;
 }
