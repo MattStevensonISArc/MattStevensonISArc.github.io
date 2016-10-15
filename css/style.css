@@ -1,7 +1,7 @@
 main
 {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 label {
     color: #333;
@@ -36,14 +36,14 @@ div.scroll {
     right:40px;
     display:none;
     background: transparent;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .scrollToTop:hover
 {
     transform: scale(1.05, 1.05);
     -webkit-transform: scale(1.05,1.05);
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 h1
@@ -200,7 +200,7 @@ body,
 }
 
 #jumbotron1 {
-    background: url("https://linuxradar.files.wordpress.com/2014/06/rvffd91.png")no-repeat center center fixed;
+    background: url("https://linuxradar.files.wordpress.com/2014/06/zrxkoew.png")no-repeat center center fixed;
     background-position: 0 25%;
     background-size: cover;
     color: white;
@@ -242,14 +242,6 @@ body,
     text-shadow: black 0.1em 0.1em 0.1em;
     text-align: center;
     margin-bottom: 0;
-}
-
-.tooltip {
-    opacity: 0;
-}
-
-.tooltip:hover {
-    opacity: 1;
 }
 
 #map-container{
