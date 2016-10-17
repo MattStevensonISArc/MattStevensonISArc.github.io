@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="" />
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -322,7 +318,7 @@
       <workItem from="1476440355085" duration="669000" />
       <workItem from="1476542518487" duration="946000" />
       <workItem from="1476650828633" duration="5222000" />
-      <workItem from="1476698578548" duration="107000" />
+      <workItem from="1476698578548" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -335,11 +331,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221950000" />
+    <option name="totallyTimeSpent" value="221952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="803" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
