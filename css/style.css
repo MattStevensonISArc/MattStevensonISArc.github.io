@@ -48,31 +48,35 @@ div.scroll {
 
 h1
 {
-    font-family: Lobster, cursive;
+    font-family: Bungee Inline, cursive;
     text-shadow: 2px 2px rgba(39, 39, 39, 0.71);
 }
 
 h2
 {
-    font-family: Amatic SC, cursive;
+    font-family: Bungee Shade, cursive;
     font-size: 40px;
 }
 
 h3
 {
     font-family: Lobster Two, cursive;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 h4, td, tr, th {
     font-family: Josefin Slab, cursive;
     font-size: 20px;
 }
-
 p
 {
     font-family: Amatic SC, cursive;
-    font-size: 32px;
+    font-size: 28px;
+}
+strong
+{
+    font-family: Josefin Slab, cursive;
+    font-size: 22px;
 }
 h5{
     font-family: Josefin Slab, cursive;
