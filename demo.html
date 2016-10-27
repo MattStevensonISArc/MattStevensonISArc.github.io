@@ -170,13 +170,14 @@
                         </li>
                         <hr>
                         <li>
-                            <h6>If you chose an option from one of the three in the drop down list below, your choice will be prompted to the screen.</h6><br>
+                            <h6>If you try to chose an option from the drop down list below, you will be unable to - this is because the value for the list has been set to position 0 in my dropDownList() function
+                             meaning that it will always be set to display 'dropDownList()'.</h6><br>
                             <select id="dropDown" onchange="dropDownList(this)">
 
                                 <option value="0">dropDownList()</option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
+                                <option value="1">Try to chose me!</option>
+                                <option value="2">Try to chose me, too!</option>
+                                <option value="3">Me too!</option>
                             </select>
                             <br>
                             <br>

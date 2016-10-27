@@ -130,9 +130,10 @@ function getUrl(button1) {
             alert("Log in was successful.");
             document.cookie = "userName = "+userNameInput.value;
             console.log(document.cookie);
+                window.location = "demo2.html";
         }
         else {
-            alert("Password invalid or NOTHING ENTERED, please try again.");
+            alert("Username or Password invalid, please try again.");
         }
 }
 
@@ -158,7 +159,7 @@ function selectGender(){
 
 function dropDownList(dropDown)
 {
-    alert(dropDown.options[dropDown.selectedIndex].innerHTML);
+    dropDown.value="0";
 }
 
 function changeColour() {
