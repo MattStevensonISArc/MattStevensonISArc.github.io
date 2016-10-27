@@ -107,7 +107,28 @@
                                 <button type ="submit">checkUser()</button>
                             </div>
                         </form>
+                    <hr>
+                    <h6>If you click 'randomNumber()', a random number will be generated between 1 and 10.</h6>
+                        <br>
+                    <button onclick="randomNumber()">randomNumber()</button>
+                        <br>
                     <br>
+                    <h6 id="mathRandom"></h6>
+                    <hr>
+                    <h6>If you use the buttons below, you will be able to 'check' and 'uncheck' the Checkbox, using my checkBox() function.</h6>
+                    <br>
+
+                    checkBox() <input type="checkbox" id="myCheck"><br>
+                    <br>
+                    <button onclick="check()">Check</button>
+                    <button onclick="uncheck()">Uncheck</button>
+                    <hr>
+
+                    <br>
+                    <h6>If you click the 'changeColour()' button below, the text should change to the colour 'Red'.</h6><br>
+                    <h6 id="h6Change">This text will change colour.</h6>
+
+                    <button type="button" onclick="changeColour()">changeColour()</button>
                 </div>
                 <!--/First column-->
                 <div class="col-md-6">
@@ -132,18 +153,48 @@
                                 getBrowser()
                             </button>
                         </li>
-                        <li>
-
-                        </li>
                         <hr>
                         <h6>If you hover your cursor over this image, it should change due to the fact I have used two functions 'setImage()' and 'resetImage()', with 'onmouseover' and 'onmouseout' events to allow
                          the image to change when hovered over, and then revert back to its original state when the cursor leaves its area.</h6>
                         <br>
                         <li class="text-xs-center">
-                            <img src="html5logo.png" id="html5logo" onmouseover="setImage(this)" onmouseout="resetImage(this)" height="150px" width="150px">
+                            <img src="html5logo.png" id="html5logo" onmouseover="setImage(this)" onmouseout="resetImage(this)" height="135px" width="135px">
+                        </li>
+                        <hr>
+                        <li>
+                            <h6>If you click one of the radio buttons below, you may select your Gender and be alerted by my JavaScript function selectGender() to alert you of your choice.</h6><br>
+                            <form action="">
+                                <input type="radio" name="gender" onclick="selectGender()" value="male" id="male"> Male
+                                <input type="radio" name="gender" onclick="selectGender()" value="female" id="female"> Female
+                            </form>
+                        </li>
+                        <hr>
+                        <li>
+                            <h6>If you chose an option from one of the three in the drop down list below, your choice will be prompted to the screen.</h6><br>
+                            <select id="dropDown" onchange="dropDownList(this)">
+
+                                <option value="0">dropDownList()</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                        </li>
+                        <hr>
+                        <li>
+                            <h6>If you click 'changeText()', Inner HTML should change the text to new text defined within the function.</h6><br>
+                            <h6 id="p1">This is some text.</h6>
+
+                            <button type="button" onclick="changeText()">
+                                changeText()
+                            </button>
                         </li>
                     </ul>
                 </div>
+
+
                 <!--/Second column-->
             </div>
         </div>

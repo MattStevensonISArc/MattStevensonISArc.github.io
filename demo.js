@@ -59,7 +59,7 @@ function resetImage(image){
 }
 
 function getLogs() {
-    var values = [];
+    var values = new Array();
     var keys = Object.keys(localStorage);
     var i = keys.length;
     for (x = 0; x < 100; x++) {
@@ -67,7 +67,11 @@ function getLogs() {
             break;
         if (typeof(keys[x]) != "undefined") {
             console.log(keys[x]);
-            console.log(localStorage.getItem(keys[x]));
+            values.push(JSON.parse(localStorage.getItem(keys[x])));
+        }
+        console.log(values);
+        with(values[0]){
+            console.log(logName);
         }
     }
 }
@@ -89,18 +93,22 @@ function getLogs() {
      console.log(localStorage.getItem(keys[x]));
      }*/
 
-    function getUrl(button1) {
-        var url = window.location;
-        console.log(url);
-        if (url.href.includes("demo2.html")) {
-            window.location = "demo2.html";
-            console.log(button1.id);
-            switch (button1.id) {
-                case /button1/:
-                    break;
-            }
+function getUrl(button1) {
+    var url = window.location;
+    console.log(url);
+    if (url.href.includes("demo.html")) {
+        window.location = "demo2.html";
+        console.log(button1.id);
+        switch (button1.id) {
+            case /button1/:
+                console.log("This is button 1");
+                break;
+            case /button2/:
+                console.log("This is button 2");
+                break;
         }
     }
+}
 
     function goBack() {
         window.history.back();
@@ -119,16 +127,46 @@ function getLogs() {
         console.log(userNameInput.value);
         console.log(userPasswordInput.value);
         if (userNameInput.value == "Matt" && userPasswordInput.value == "Password01") {
-            console.log("Log in was successful.");
+            alert("Log in was successful.");
             document.cookie = "userName = "+userNameInput.value;
             console.log(document.cookie);
         }
         else {
-            console.log("You've entered an incorrect Username or Password, please try again.");
+            alert("Password invalid or NOTHING ENTERED, please try again.");
         }
 }
 
+function randomNumber() {
+    document.getElementById("mathRandom").innerHTML = Math.floor(Math.random() * 10) + 1
+}
+function check() {
+    document.getElementById("myCheck").checked = true;
+}
 
+function uncheck() {
+    document.getElementById("myCheck").checked = false;
+}
 
+function selectGender(){
+    if(document.getElementById("male").checked){
+      alert("You are male.");
+    }
+    else if(document.getElementById("female").checked){
+        alert("You are female.")
+    }
+}
+
+function dropDownList(dropDown)
+{
+    alert(dropDown.options[dropDown.selectedIndex].innerHTML);
+}
+
+function changeColour() {
+    document.getElementById("h6Change").style.color = "red";
+}
+
+function changeText(){
+    document.getElementById("p1").innerHTML = "The text has been changed.";
+}
 
 

@@ -95,7 +95,7 @@ function getLogs() {
             window.location = "JavaScript2.html";
             console.log(button1.id);
             switch (button1.id) {
-                case "button1":
+                case /button1/:
                     console.log("This is button 1");
                     break;
                 case /button2/:
@@ -123,7 +123,7 @@ function getLogs() {
         console.log(userPasswordInput.value);
         if (userNameInput.value == "Matt" && userPasswordInput.value == "Password01") {
             console.log("Log in was successful.");
-            document.cookie = "userName = " + userNameInput.value
+            document.cookie = "userName = " + userNameInput.value;
             console.log(document.cookie);
         }
         else {
