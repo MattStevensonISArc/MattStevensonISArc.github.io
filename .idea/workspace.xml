@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="HTML&amp;CSS1.iws" />
@@ -27,10 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="367" column="38" selection-start-line="367" selection-start-column="38" selection-end-line="367" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="797" column="36" selection-start-line="797" selection-start-column="36" selection-end-line="797" selection-end-column="36" />
               <folding>
-                <marker date="1477998600000" expanded="true" signature="81191:81198" ph="×" />
+                <marker date="1478004373000" expanded="true" signature="81461:81468" ph="×" />
               </folding>
             </state>
           </provider>
@@ -162,7 +161,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css/style.css" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.HTML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/mattstevenson/PhpstormProjects/HTML&amp;CSS1/index.html" />
@@ -324,7 +323,7 @@
       <workItem from="1477470326138" duration="171000" />
       <workItem from="1477476123500" duration="5963000" />
       <workItem from="1477558694280" duration="7151000" />
-      <workItem from="1477991467389" duration="942000" />
+      <workItem from="1477991467389" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -337,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252822000" />
+    <option name="totallyTimeSpent" value="253842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="803" extended-state="0" />
@@ -645,10 +644,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="367" column="38" selection-start-line="367" selection-start-column="38" selection-end-line="367" selection-end-column="38" />
+        <state relative-caret-position="240">
+          <caret line="797" column="36" selection-start-line="797" selection-start-column="36" selection-end-line="797" selection-end-column="36" />
           <folding>
-            <marker date="1477998600000" expanded="true" signature="81191:81198" ph="×" />
+            <marker date="1478004373000" expanded="true" signature="81461:81468" ph="×" />
           </folding>
         </state>
       </provider>
