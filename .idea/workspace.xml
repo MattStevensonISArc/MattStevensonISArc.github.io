@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="" />
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -323,7 +321,7 @@
       <workItem from="1477470326138" duration="171000" />
       <workItem from="1477476123500" duration="5963000" />
       <workItem from="1477558694280" duration="7151000" />
-      <workItem from="1477991467389" duration="2026000" />
+      <workItem from="1477991467389" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -336,7 +334,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253906000" />
+    <option name="totallyTimeSpent" value="253940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="803" extended-state="0" />
