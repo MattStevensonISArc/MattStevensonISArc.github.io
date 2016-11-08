@@ -1,3 +1,47 @@
+<!-- PHP -->
+
+<?php
+
+if($_SERVER["REQUEST_METHOD"]=="POST")
+{
+
+    $host="localhost";
+    $port="8889";
+    $dbname="projectdatabase";
+    $username="root";
+    $password="root";
+
+
+    try
+    {
+        $db=new PDO("mysql:host=$host;port=$port;dbname=$dbname",$username,$password);
+
+        $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+    }
+    catch(PDOException $err)
+    {
+        echo "Connection Failed.".$err->getMessage();
+    }
+
+    if($db){
+        echo "Connection Successful";
+
+        $title="$_POST[title]";
+        $author="$_POST[author]";
+        $content="$_POST[content]";
+        $today=date("Y-m-d");
+
+        $sql="INSERT INTO logentries(title,author,content,date_created)VALUES('$title','$author','$content','$today')";
+        $db->exec($sql);
+    }
+
+}
+else{
+
+    ?>
+
+    <!-- HTML -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +70,7 @@
 
     <!-- Custom CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -72,9 +117,7 @@
                 </li>
             </ul>
     </div>
-    <!--/.Collapse content-->
 </nav>
-
 <!--/.Navbar-->
 
 <!--Mask-->
@@ -155,7 +198,7 @@
                             <br>
                             This Website has been created with regards to a Level 3 Certificate in Web Design and Development (RQF), that I wish to obtain whilst here at ISArc.
                             During the course of a 6-8 week period, I will further develop this site to be a Log Entry site that can not only allow me to post up-to-date logs to my learning
-                            but allow them to be viewed collectively, be edited and for Feedback to be sent me via email.
+                                                    but allow them to be viewed collectively, be edited and for Feedback to be sent me via email.
                             <br>
                             <br>
                         </h4>
@@ -399,17 +442,35 @@
             <div class="well">
                 <div class="input-group">
                     <h4 class="h2-responsive wow fadeInDown"><small>"What's New?"</small></h4>
-                    <input type="text" id="textArea" class="form-control input-sm chat-input" placeholder="Type your log here..."/>
+
+                    <form method="post">
+                        <label for="title"></label><br>
+                        <h5>Log Name:</h5>
+                        <input type="text" id="title" class="form-control input-sm chat-input" name="title" placeholder="Name your log..."><br>
+
+                        <label for="author"></label><br>
+                        <br>
+                        <h5>Username:</h5>
+                        <input type="text" id="author" class="form-control input-sm chat-input" name="author" placeholder="Enter your Username..."><br>
+
+                        <label for="content"></label><br>
+                        <br>
+                        <h5>Log Content:</h5>
+                        <textArea id="content" class="form-control input-sm chat-input" name="content" placeholder="Type your Log here..."></textArea><br>
+                    </form>
+
                     <ul>
                         <li class="animated fadeIn">
-                            <a href="#" class="btn btn-primary bt-sm pull-right wow fadeInDown" data-wow-delay="0.2s" onclick = "createLog()"><i class="material-icons">exit_to_app</i></a>
+                            <a href="#" class="btn btn-primary bt-lg pull-right wow fadeInDown" onclick="sendForm()" data-wow-delay="0.2s"><i class="material-icons">exit_to_app</i></a>
                         </li>
                     </ul>
+
+
                 </div>
                 <ul>
                     <li class="animated fadeIn">
-                        <button id="show" class="btn btn-info pull-right btn-sm  wow fadeInRight" data-wow-delay="0.2s"><i class="material-icons">sort_by_alphabet</i></button>
-                        <button id="hide" class="btn btn-info pull-right btn-sm wow fadeInLeft" data-wow-delay="0.2s"><i class="material-icons">view_compact</i></button>
+                        <button id="show" class="btn btn-info pull-right btn-md  wow fadeInRight" data-wow-delay="0.2s">Show Logs
+                        <button id="hide" class="btn btn-info pull-right btn-md wow fadeInLeft" data-wow-delay="0.2s">Hide Logs
                     </li>
                 </ul>
                 <hr data-brackets-id="12673">
@@ -426,28 +487,28 @@
                 <div class="scroll"><h6>Today is Thursday the 8th of September, thus far the other placement students and I have been imaging our MacBook Pro’s, downloading and installing programs relating to
                     the work we will be doing over the course of the year.
 
-                    Today, Alan has tasked us with ‘HTML & CSS 1’, which asks us to “Make a webpage in a folder on your desktop using a text editor”. To begin with I have installed ‘PhpStorm’,
+    Today, Alan has tasked us with ‘HTML & CSS 1’, which asks us to “Make a webpage in a folder on your desktop using a text editor”. To begin with I have installed ‘PhpStorm’,
                     a commercial IDE for HTML, PHP and JavaScript. Using PhpStorm I created a New Project with a blank .html file called ‘index’, giving the document a ‘document type’ of ‘html’,
                     this informs the browser used to load the page what type of file is being loaded. I then added a structure to the document, using ‘html’, ‘head’ and ‘body’ tags, these tags allow
                     for a basic page layout and form the building blocks required to create the rest of the webpage.
                     <br>
                     <br>
-                    From here I reverted back to my guidelines in which I’m asked to add several elements to the webpage, one of which was to include my name as a ‘header’. A header in html
+    From here I reverted back to my guidelines in which I’m asked to add several elements to the webpage, one of which was to include my name as a ‘header’. A header in html
                     is an element that offers a selection of text sizes to chose from, I used the ‘h1’ header tag although there are header tags h1 through to h6, h1 being the largest and h6
                     being the smallest. For my introductory paragraph I used ‘p’ tags to create the paragraph, the paragraph element differs from that of the header elements as it is used when
                     writing main body text that can be orientated by style sheets within the webpage, I set this element to ‘fixed-width’, so that it does not change no matter the size of the users
                     display. For the creation of a table within the webpage we have used ‘table’ tags with ‘tr’ tags for table rows, ‘th’ tags for table headings and ‘td’ for table data/contents,
-                    I set this element to ‘fluid’, which allows the table to resize itself depending on the size of the users display. Creating a hyperlink for ‘W3 Schools’ was rather simple in that
+                                                                                                                                                                               I set this element to ‘fluid’, which allows the table to resize itself depending on the size of the users display. Creating a hyperlink for ‘W3 Schools’ was rather simple in that
                     using an ‘anchor’ tag ‘a’ and referencing a desired URL within quotations creates the hyperlink, then any text included will redirect the user to the destination upon clicking it.
                     <br>
                     <br>
-                    In terms of CSS, I included a set of ‘style’ tags in the ‘head’ section of my HTML document, within these tags I have edited the webpage’s paragraph text using ‘font-family’ -
-                    set to Arial and ‘font-size’ to ‘22px’, ‘padding-left’ set to ‘50px’ which pads the paragraph text 50 pixels from the left margin of the page, I also set ‘colour’ to white. For
+    In terms of CSS, I included a set of ‘style’ tags in the ‘head’ section of my HTML document, within these tags I have edited the webpage’s paragraph text using ‘font-family’ -
+    set to Arial and ‘font-size’ to ‘22px’, ‘padding-left’ set to ‘50px’ which pads the paragraph text 50 pixels from the left margin of the page, I also set ‘colour’ to white. For
                     headings ‘h2’ and ‘h3’ I set font to Arial and padding-left to ’10px’ and ‘20px’ respectively, with colour set to ‘ghostwhite’, for the ‘body’ of the document I set ‘background-colour’
                     to ‘grey’ - these colour names are preloaded into HTML and CSS and I did not use a Hexadecimal colour code to set them.
                     <br>
                     <br>
-                    I used ‘Quicktime Player’ to create a new voice recording and record myself speaking aloud “Welcome to my Placement Log”. By default the file was saved as a ‘.m4a’ audio file,
+    I used ‘Quicktime Player’ to create a new voice recording and record myself speaking aloud “Welcome to my Placement Log”. By default the file was saved as a ‘.m4a’ audio file,
                     something we weren't interested in as the assessment criteria asks that we include both a ‘.mp3’ file and a ‘.ogg’ file, having taken this into consideration I converted the file
                     to the appropriate file formats using a online converter and saved them to my Projects folder. To create the audio player I used ‘audio’ tags, using the ‘controls’ attribute to add
                     audio controls such as play and pause, embedded in the audio tags I referenced each audio file with sources ‘src’ and assigning them a ‘type’ of ‘/ogg’ and ‘/mpeg’ respectively.
@@ -486,7 +547,7 @@
                 <h6>In this exercise we experimented with a GUI and uploaded changes made within the GUI to a web server, we used BlueGriffon. Firstly, I entered a header to the page and changed
                     the font to Arial and the size to 24, I then added another table to the page with no contents. We uploaded our edits to the W3 schools validator to validate our projects and check
                     for errors and discrepancies in the code. Finally we uploaded out altered webpage to Git Hub, using the command line to add, commit and push the new page to our Git repositories.
-                    GUI HTML editors are often evaluated against that of the W3C Accessibility Guidelines, a series of guidelines which ask questions about GUI systems in order to determine if they are
+    GUI HTML editors are often evaluated against that of the W3C Accessibility Guidelines, a series of guidelines which ask questions about GUI systems in order to determine if they are
                     more or less accessible to users, for example - The GUI editor BlueGriffon allows us to edit the size and font of text on a page, this is a degree of accessibility that is present within
                     the editor - that is also stated within the WSC’s guidelines.
 
@@ -502,8 +563,8 @@
                 <h5 class="ui-state-default">Log 004: Internet Architecture</h5>
                 <br>
                 <div class="scroll"><h6>
-                    Today we studied a multitude of topics relating to ‘Internet Architecture’, Internet Architecture is a term defining a vast number of networks interconnecting and
-                    communicating with a common protocol. So what is a Client Server Network? A Client Server Network is a centralised network connected to a high performance machine,
+    Today we studied a multitude of topics relating to ‘Internet Architecture’, Internet Architecture is a term defining a vast number of networks interconnecting and
+    communicating with a common protocol. So what is a Client Server Network? A Client Server Network is a centralised network connected to a high performance machine,
                     called a ‘server’, the CSN acts as a ‘hub’ or focal point for other smaller and less powerful machines or nodes. A Client has certain requirements before it can operate,
                     one main essential is that it has a computer or other device to connect to, this device must contain a network card or be capable of connecting to a modem. A router is also
                     required for Client connectivity, many modern routers have a modem built into them, a browser is also a necessity.<br>
@@ -511,32 +572,32 @@
 
                     Public Switched Telephone Network (PSTN) is a systematic telephone exchange which operates on an international scale, it transmits analogue voice data and signals using copper wires.
 
-                    Integrated Services Digital Network (ISDN) is a set of standards for communication and transmission of data such as audio and video, ISDN operates on top of the PSDN.
+    Integrated Services Digital Network (ISDN) is a set of standards for communication and transmission of data such as audio and video, ISDN operates on top of the PSDN.
 
-                    Digital Subscriber Line (DSL) is in referral to a ‘modem’ something very common in most homes of the modern age, a DSL modem can be connected to a router and a broadband telephone
+    Digital Subscriber Line (DSL) is in referral to a ‘modem’ something very common in most homes of the modern age, a DSL modem can be connected to a router and a broadband telephone
                     line in order to allow a computer or other device to access Internet services.
 
-                    Internet Protocol (IP) is a protocol which allows for both sending and receiving data packets over the Internet, the protocol defines a format for data sent and received along with
+    Internet Protocol (IP) is a protocol which allows for both sending and receiving data packets over the Internet, the protocol defines a format for data sent and received along with
                     deciding upon a method by which data is to be sent.
 
-                    Open Systems Interconnection Model (OSI Model) is a conceptual model with 7 main layers, it characterises how applications can communicate over a network, allowing software programs
+    Open Systems Interconnection Model (OSI Model) is a conceptual model with 7 main layers, it characterises how applications can communicate over a network, allowing software programs
                     to operate together.
 
-                    Remote Access Protocols and Services (RAP) are what allows a computer node with use of Point-to-point client software to connect to a host computer, often from a remote location - this is
+    Remote Access Protocols and Services (RAP) are what allows a computer node with use of Point-to-point client software to connect to a host computer, often from a remote location - this is
                     called a Remote Access Server. Point-to-point (PPP) is a protocol which establishes a direct link between two machines, often simply one node connected to a server. PPPoE or Point-to-point over
                     Ethernet is a network specification for establishing a connection between one or more computer nodes over a local area network to a remote location or site, the PPP protocol frameset is said to be
                     ‘encapsulated’ within the frames of the Ethernet frame - my understanding of this is that PPP allows a direct connection between two nodes, and the Ethernet specification which allows multiple users/nodes
                     to connect in a LAN connection.
 
 
-                    Ajax (JavaScript) is a script that allows communication between the client and a server without the need for a complete refresh of the page.
-                    Point of Presence (POP) is an access point or interface point in which multiple networks connect to each other, often referring to a location or facility that allows nodes to connect
+    Ajax (JavaScript) is a script that allows communication between the client and a server without the need for a complete refresh of the page.
+    Point of Presence (POP) is an access point or interface point in which multiple networks connect to each other, often referring to a location or facility that allows nodes to connect
                     to the Internet.<br>
                     <br>
 
-                    Internet eXchange Point (IXP) is a network infrastructure that allows ISP’s to exchange internet traffic, there are a very limited amount of them in the world.
+    Internet eXchange Point (IXP) is a network infrastructure that allows ISP’s to exchange internet traffic, there are a very limited amount of them in the world.
 
-                    Domain Name Systems (DNS) is a naming system for computers or other devices with Internet connectivity, it looks up addresses using a naming structure of a prefix, subdomain, domain
+    Domain Name Systems (DNS) is a naming system for computers or other devices with Internet connectivity, it looks up addresses using a naming structure of a prefix, subdomain, domain
                     name and an extension. ‘.com’ and the likes are top level domain names, ‘.co.uk' is a second level domain name.
 
                     Shared Domains are alterations of the subdomains part of an address, allowing separate parts of a server to be accessed using domain registrars e.g. https://finance.nowthis.tech.
@@ -609,7 +670,7 @@
                 <small class="pull-right text-muted">
                     <span class=""><i class="material-icons">watch_later</i></span>27/09/2016</small>
                 <br>
-                <h5 class="ui-state-default">Log 006: Network & Maintenance Issues</h5>
+                <h5 class="ui-state-default">Log 006: Network Maintenance Issues</h5>
                 <br>
                 <div class="scroll"><h6>Whilst using a computer, for recreational purposes or as a profession, ensuring security and protecting our devices from the dangers of being connected to the Internet poses is absolutely vital.
                     When using the Internet protecting our computers from counter attacks is of utmost importance, keeping PC’s up to date with the newest updates and security patches helps to fend off malicious attacks
@@ -780,27 +841,73 @@
                         are such as using console.log(i/x) statements or using breakpoints, supplemental debugging is use of a web browser, plug-ins or online validators in order to debug.
                     </h6>
                     </div>
-                    <hr>
-                    <div class="container" align="left">
-                        <img class="img-circle" id="avatar11" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
-                        <strong class="userName" id="#log010">Matt Stevenson</strong>
-                    </div>
-                    <small class="pull-right text-muted">
-                        <span class=""><i class="material-icons">watch_later</i></span>18/10/2016</small>
-                    <br>
-                    <h5 class="ui-state-default">Log 010: Applied JavaScript</h5>
-                    <br>
-                <h6>A browser is responsible for protecting a computer from use of client-side JavaScript or XSS injection, this is called cross-site scripting.
-                        A computers operating system will be in control of anti-virus software programs and/or or Firewall, allowing it to protect against harmful programs.
-                        Signed scripts are ones that contain a ‘digital signature’ which in turn request more privileges than if they weren’t signed, the signature allows users
-                        to ensure that their script hasn’t been changed or tampered with since the time it was originally signed. Attackers using XSS to target a victim don’t target
-                        the hosts computer directly and instead inject a piece of malicious code into a vulnerable part of a webpage in order to deliver harmful script inputs of unvalidated
-                        code to a hosts computer. XSS can be used is ActiveX and Flash as well as JavaScript although it is the most targeted as it is essential in most browsers for web projection.
-                    A cookie is a small file that allows for web pages to recognise your computer either temporarily or permanently, they can be used to keep the likes of log in details relevant to
-                    a specific user or to track a users preferences.
-                    </h6>
-                    </div>
-                    <hr>
+                  <hr>
+            <div class="container" align="left">
+                <img class="img-circle" id="avatar11" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                <strong class="userName" id="#log010">Matt Stevenson</strong>
+            </div>
+            <small class="pull-right text-muted">
+                <span class=""><i class="material-icons">watch_later</i></span>18/10/2016</small>
+            <br>
+            <h5 class="ui-state-default">Log 010: Principles of Database Concepts</h5>
+            <br>
+            <h6>
+                Relational databases were invented in 1970 by IBM and are defined as groupings of data items which have relations to each other, contained in tables, rows and columns.
+                Relational databases are in support of Automicity, Consistency, Isolation and Durability (ACID), which is a structure that ensures the correct and reliable process of
+                transactions within a database. Non-relational databases or NoSQL databases are involved in the handling and scaling of large quantities of unstructured data, eliminating
+                ‘referential integrity’ - a relational database concept which enforces that all relationships regarding tables and data must be consistent. In any non-relational database model
+                relationships are a very important aspect, they help to eliminate data redundancy and allow for a more concise and usable database. There are different types of relationships between
+                tables and data within databases, one-to-one, one-to-many and many-to-many; each type defines its own form of relationship between different tables - e.g. one-to-many could be a teacher
+                within a class of students, as there is one teacher and ‘many’ or multiple students. SQL or Structured Query Language is used within databases to pose ‘queries’ to them, communicate with
+                aspects of the databases and to perform tasks such as retrieving data from a table or updating a tables records. MySQL is the database vendor I am most familiar with, but there are also
+                Microsoft SQL Servers for databases along with Oracle and IBM DB2.
+            </h6>
+        </div>
+            <hr>
+            <div class="container" align="left">
+                <img class="img-circle" id="avatar11" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                <strong class="userName" id="#log011">Matt Stevenson</strong>
+            </div>
+            <small class="pull-right text-muted">
+                <span class=""><i class="material-icons">watch_later</i></span>18/10/2016</small>
+            <br>
+            <h5 class="ui-state-default">Log 011: Applied JavaScript</h5>
+            <br>
+            <h6>A browser is responsible for protecting a computer from use of client-side JavaScript or XSS injection, this is called cross-site scripting.
+                A computers operating system will be in control of anti-virus software programs and/or or Firewall, allowing it to protect against harmful programs.
+                Signed scripts are ones that contain a ‘digital signature’ which in turn request more privileges than if they weren’t signed, the signature allows users
+                to ensure that their script hasn’t been changed or tampered with since the time it was originally signed. Attackers using XSS to target a victim don’t target
+                the hosts computer directly and instead inject a piece of malicious code into a vulnerable part of a webpage in order to deliver harmful script inputs of unvalidated
+                code to a hosts computer. XSS can be used is ActiveX and Flash as well as JavaScript although it is the most targeted as it is essential in most browsers for web projection.
+                A cookie is a small file that allows for web pages to recognise your computer either temporarily or permanently, they can be used to keep the likes of log in details relevant to
+                a specific user or to track a users preferences.
+            </h6>
+        </div>
+        <hr>
+            <div class="container" align="left">
+                <img class="img-circle" id="avatar11" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+                <strong class="userName" id="#log012">Matt Stevenson</strong>
+            </div>
+            <small class="pull-right text-muted">
+                <span class=""><i class="material-icons">watch_later</i></span>18/10/2016</small>
+            <br>
+            <h5 class="ui-state-default">Log 012: JavaScript Technology Extensions</h5>
+            <br>
+            <h6>In Javascript there are several ways in which you can load and use scripts and external libraries within your code, firstly one must locate the resource they wish to incorporate
+                to their project which means either downloading it as a file or including a specific URL to the code in incorporate the scripts. Referencing a library on your webpage is simple
+                in that the external library should be listed with ‘script’ tags within the ‘head’ section of an HTML document. When the external scripts have been referenced they can be initialised
+                and event handlers can be used in order to call specific scripts within the code. The ‘XMLHttpRequest’ (XHR) object is an API which contains methods that assist in the communication
+                between a browser and a web server - which is used heavily in AJAX programming. The object interacts with XML code using a ‘responseXML’ method, that it can use to retrieve structured
+                data by parsing the XML. AJAX makes requests to a web server from a users browser by running a JavaScript function which then creates a XMLHttpRequest, the request is sent to the web
+                server with use of either a HTTP ‘POST’ or ‘GET’; which either supply additional data from the client browser or request for the inclusion of all data within a URL, respectively.
+                The web server then processes the request, generates a response and sends it back to the browser, JavaScript then parses the server response and the webpage can be updated accordingly
+                without the need for a page refresh or reload. Alternatives to using XML-based AJAX responses come in the form of SSE or Server-Sent Events, which perform very similar actions to that
+                of XMLHttpRequests as they allow a web page to automatically update from a remote server without refreshing it. When attempting to parse XML responses from AJAX requests there are certain
+                XML structures that must be followed; XML demands that there must be a declaration along with a MIME type of ‘text/xml’, they are also limited to a specific size value meaning any
+                responses that are sent back to web browsers are also of a limited size.
+            </h6>
+        </div>
+
                 <div class="container" align="left">
                     <img class="img-circle" id="avatarNew" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
                     <strong class="primary-font" id="#log000">Matt Stevenson</strong>
@@ -825,9 +932,6 @@
                 </div>
                 <br>
             </div>
-        </div>
-    </div>
-</div>
 <div class="container">
     <div class="row">
         <div class="col-md-8">
@@ -1035,7 +1139,7 @@
 
             <!--Copyright-->
             <div class="footer-copyright">
-                Matt Stevenson -
+    Matt Stevenson -
                 <a href="http://www.isarc.co.uk"> ISArc Ltd. </a>
                 <small>© 2016</small>
             </div>
@@ -1049,27 +1153,27 @@
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
     <script>
-        src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
-    </script>
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        </script>
     <script>
-        $(document).ready(function(){
+    $(document).ready(function(){
 
-            //Check to see if the window is top if not then display button
-            $(window).scroll(function(){
-                if ($(this).scrollTop() > 100) {
-                    $('.scrollToTop').fadeIn();
-                } else {
-                    $('.scrollToTop').fadeOut();
-                }
-            });
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
 
-            //Click event to scroll to top
-            $('.scrollToTop').click(function(){
-                $('html, body').animate({scrollTop : 0},800);
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
                 return false;
             });
 
-        });
+    });
     </script>
 
 
@@ -1128,25 +1232,25 @@
 
     <!-- Animations init-->
     <script>
-        new WOW().init();
+    new WOW().init();
     </script>
     <!-- Tooltips -->
     <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
     </script>
     <script>
-        $(document).ready(function() {
-            $("#hide").click(function () {
-                $("h6").hide();
-                $("div.scroll").hide();
-            });
-            $("#show").click(function () {
-                $("h6").show();
-                $("div.scroll").show();
-            });
+    $(document).ready(function() {
+        $("#hide").click(function () {
+            $("h6").hide();
+            $("div.scroll").hide();
         });
+        $("#show").click(function () {
+            $("h6").show();
+            $("div.scroll").show();
+        });
+    });
     </script>
     <script>
         function log(name, content, entryDate){
@@ -1171,7 +1275,7 @@
         }
 
         function createLog() {
-            if (document.getElementById("textArea") == null) {
+            if (document.getElementById("content") == null) {
                 alert("Text Box doesn't exist.");
             }
             else {
@@ -1202,15 +1306,15 @@
         }
     </script>
     <script>
-        $(function () {
+    $(function () {
 
-            $('#contact-form').validator();
+        $('#contact-form').validator();
 
-            $('#contact-form').on('submit', function (e) {
-                if (!e.isDefaultPrevented()) {
-                    var url = "contact.php";
+        $('#contact-form').on('submit', function (e) {
+            if (!e.isDefaultPrevented()) {
+                var url = "contact.php";
 
-                    $.ajax({
+                $.ajax({
                         type: "POST",
                         url: url,
                         data: $(this).serialize(),
@@ -1228,14 +1332,52 @@
                     });
                     return false;
                 }
-            })
+        })
         });
     </script>
     <script src="validator.js"></script>
     <script src="contact.js"></script>
-</div>
+
+        <script>
+            function sendForm()
+            {
+                event.preventDefault();
+
+                var title=document.getElementById("title").value;
+                var author=document.getElementById("author").value;
+                var content=document.getElementById("content").value;
+
+                var xhttp=new XMLHttpRequest();
+
+                xhttp.onreadystatechange=function()
+                {
+                    if(this.readyState==4&&this.status==200)
+                    {
+                        console.log(this.responseText)
+                    }
+                };
+
+                xhttp.open("POST",window.location.pathname.split("/").pop(),true);
+
+                xhttp.setRequestHeader("Content-type","Application/x-www-form-urlencoded");
+
+                xhttp.send("title="+title+"&author="+author+"&content="+content);
+
+            }
+
+
+        </script>
+
+
     </div>
     </div>
 </body>
 
 </html>
+
+<?php
+
+    }
+
+    ?>
+

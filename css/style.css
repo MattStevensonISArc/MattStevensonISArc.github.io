@@ -101,6 +101,15 @@ body,
     background-size: cover;
 }
 
+#logIn{
+    background: url("https://linuxradar.files.wordpress.com/2014/06/qszpeui.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
 .flex-center {
     color: #fff;
 }
@@ -200,7 +209,6 @@ body,
     text-align: center;
     margin-bottom: 0;
     height: 450px; !important
-
 }
 
 #jumbotron1 {
@@ -387,5 +395,10 @@ body,
 
 .navbar{
 padding-left:15px;
+}
+
+textarea {
+    width: 300px;
+    height: 300px;
 }
 
