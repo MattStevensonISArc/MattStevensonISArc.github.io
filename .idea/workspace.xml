@@ -2,301 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logIn.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/MDB License.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/css/mdb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/css/mdb.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/font/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/lightbox/default-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/lightbox/default-skin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/lightbox/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/img/overlays/09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/jquery-2.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/mdb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/mdb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/tether.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/js/tether.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_cards-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_carousels-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_forms-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_hover-effects.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/data/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/data/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/data/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/data/_variables-b4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/free/data/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3 columns listing/sass/mdb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/.idea/corporate.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/css/mdb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/css/mdb.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/font/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/lightbox/default-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/lightbox/default-skin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/lightbox/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/img/overlays/09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/jquery-2.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/mdb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/mdb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/tether.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/js/tether.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_cards-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_carousels-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_forms-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_hover-effects.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/data/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/data/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/data/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/data/_variables-b4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/free/data/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/corporate/sass/mdb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/.idea/ecommerce-home-page.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/css/mdb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/css/mdb.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/font/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/lightbox/default-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/lightbox/default-skin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/lightbox/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/img/overlays/09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/jquery-2.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/mdb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/mdb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/tether.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/js/tether.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_cards-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_carousels-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_forms-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_hover-effects.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/data/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/data/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/data/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/data/_variables-b4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/free/data/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-home-page/sass/mdb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/MDB License.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/css/mdb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/css/mdb.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/font/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/lightbox/default-skin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/lightbox/default-skin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/lightbox/preloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/img/overlays/09.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/jquery-2.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/mdb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/mdb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/tether.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/js/tether.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_cards-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_carousels-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_forms-basic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_hover-effects.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_navbars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/data/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/data/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/data/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/data/_variables-b4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/free/data/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce-product-page/sass/mdb.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/mattstevenson.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/mattstevenson.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript1.html" afterPath="$PROJECT_DIR$/JavaScript1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MDBootstrap.html" afterPath="$PROJECT_DIR$/MDBootstrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colourSideNav.html" afterPath="$PROJECT_DIR$/colourSideNav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createLog.html" afterPath="$PROJECT_DIR$/createLog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo2.html" afterPath="$PROJECT_DIR$/demo2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feedback.html" afterPath="$PROJECT_DIR$/feedback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexBS.html" afterPath="$PROJECT_DIR$/indexBS.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myProfile.html" afterPath="$PROJECT_DIR$/myProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studentProfile.html" afterPath="$PROJECT_DIR$/studentProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viewLogs.html" afterPath="$PROJECT_DIR$/viewLogs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -317,13 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="872" column="16" selection-start-line="872" selection-start-column="16" selection-end-line="872" selection-end-column="16" />
+            <state relative-caret-position="77">
+              <caret line="870" column="44" selection-start-line="870" selection-start-column="44" selection-end-line="870" selection-end-column="44" />
               <folding>
                 <marker date="1478535667000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
+                <marker date="1478535667000" expanded="true" signature="87557:87564" ph="×" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
                 <marker date="1478535667000" expanded="true" signature="87557:87564" ph="×" />
               </folding>
             </state>
@@ -598,6 +316,7 @@
       <workItem from="1478181353796" duration="903000" />
       <workItem from="1478512182107" duration="712000" />
       <workItem from="1478525023049" duration="2014000" />
+      <workItem from="1478598489418" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -610,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275149000" />
+    <option name="totallyTimeSpent" value="275194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="788" extended-state="6" />
@@ -657,7 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/signUp.html" />
     <entry file="file://$PROJECT_DIR$/login.html" />
     <entry file="file://$PROJECT_DIR$/BS&amp;MDL.html" />
     <entry file="file://$PROJECT_DIR$/Old.html" />
@@ -794,9 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <marker date="1463214808000" expanded="true" signature="645:652" ph="×" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,10 +639,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="872" column="16" selection-start-line="872" selection-start-column="16" selection-end-line="872" selection-end-column="16" />
+        <state relative-caret-position="77">
+          <caret line="870" column="44" selection-start-line="870" selection-start-column="44" selection-end-line="870" selection-end-column="44" />
           <folding>
             <marker date="1478535667000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
+            <marker date="1478535667000" expanded="true" signature="87557:87564" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
             <marker date="1478535667000" expanded="true" signature="87557:87564" ph="×" />
           </folding>
         </state>
