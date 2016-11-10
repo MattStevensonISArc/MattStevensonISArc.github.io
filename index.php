@@ -36,6 +36,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     }
 
 }
+
+
 else{
 
     ?>
@@ -101,7 +103,7 @@ else{
                 <a class="nav-link" href="#jumbotron1" data-toggle="tooltip" data-placement="bottom" title="View Logs"><i class="material-icons">list</i> </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#jumbotronCreate" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
+                <a class="nav-link" href="createLog.php" data-toggle="tooltip" data-placement="bottom" title="Create Log"><i class="material-icons">create</i> </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#jumbotronEdit" data-toggle="tooltip" data-placement="bottom" title="Edit Logs"><i class="material-icons">library_books</i> </a>
@@ -247,7 +249,7 @@ else{
             <div class="col-md-4">
                 <!--Card-->
                 <div class="container" align="center">
-                    <a href="#jumbotronCreate">
+                    <a href="createLog.php">
                         <div data-wow-delay="0.5s" class="wow flipInX center">
                             <img class="img-thumbnail img-circle" id="createLogIcon" src="createLog.png" alt="create log flat" height="150px" width="300px">
                             </div>
@@ -259,7 +261,7 @@ else{
                     <div class="card-block text-xs-center">
                         <!--Title-->
                         <h4 class="card-title">Create a new Journal log.</h4>
-                        <a href="#jumbotronCreate" class="waves-effect waves-light btn-large btn btn-info wow bounceInUp" data-wow-delay="0.1s"><i class="material-icons">assignment</i></a>
+                        <a href="createLog.php" class="waves-effect waves-light btn-large btn btn-info wow bounceInUp" data-wow-delay="0.1s"><i class="material-icons">assignment</i></a>
                     </div>
                     <!--/.Card content-->
 
