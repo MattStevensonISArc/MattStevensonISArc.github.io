@@ -2,39 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Unknown.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/avatar2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backToTOP.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecademyLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/createLog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/createlog.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/createlog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cyanIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cyanIcon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/editLog.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/feedback.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/feedback.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hand.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html5logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/splashBack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/intro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascriptlogo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/materialDesignLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/materialIcons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sendFeedback.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/up-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/up-arrowFlat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/viewBackground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/viewLogs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/viewlogs.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/viewlogs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/w3schoolsLogo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.js" afterPath="$PROJECT_DIR$/demo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="HTML&amp;CSS1.iws" />
@@ -79,10 +46,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="893" column="12" selection-start-line="893" selection-start-column="12" selection-end-line="893" selection-end-column="12" />
+            <state relative-caret-position="26">
+              <caret line="456" column="28" selection-start-line="456" selection-start-column="28" selection-end-line="456" selection-end-column="28" />
               <folding>
-                <marker date="1479299340000" expanded="true" signature="113516:113523" ph="×" />
+                <marker date="1479307212000" expanded="true" signature="113520:113527" ph="×" />
               </folding>
             </state>
           </provider>
@@ -369,7 +336,7 @@
       <workItem from="1478789952381" duration="10986000" />
       <workItem from="1479245476610" duration="2619000" />
       <workItem from="1479290400067" duration="1795000" />
-      <workItem from="1479295568939" duration="2250000" />
+      <workItem from="1479295568939" duration="2940000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -382,7 +349,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305847000" />
+    <option name="totallyTimeSpent" value="306537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="784" extended-state="0" />
@@ -724,10 +691,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="893" column="12" selection-start-line="893" selection-start-column="12" selection-end-line="893" selection-end-column="12" />
+        <state relative-caret-position="26">
+          <caret line="456" column="28" selection-start-line="456" selection-start-column="28" selection-end-line="456" selection-end-column="28" />
           <folding>
-            <marker date="1479299340000" expanded="true" signature="113516:113523" ph="×" />
+            <marker date="1479307212000" expanded="true" signature="113520:113527" ph="×" />
           </folding>
         </state>
       </provider>
