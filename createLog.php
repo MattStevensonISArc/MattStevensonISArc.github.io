@@ -1,6 +1,3 @@
-
-<!-- PHP -->
-
 <?php
 
 if($_SERVER["REQUEST_METHOD"]=="POST")
@@ -24,15 +21,19 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     }
 
     if($db){
-        echo "Connection Successful";
 
         $title="$_POST[title]";
         $author="$_POST[author]";
         $content="$_POST[content]";
         $today=date("Y-m-d");
-
         $sql="INSERT INTO logentries(title,author,content,date_created)VALUES('$title','$author','$content','$today')";
         $db->exec($sql);
+        $lastId=$db->lastInsertId();
+        $sql="SELECT * FROM logentries WHERE id=$lastId";
+
+        $result=$db->query($sql);
+        $row=$result->fetch(PDO::FETCH_ASSOC);
+        echo json_encode($row);
     }
 
 }
@@ -54,6 +55,22 @@ else{
 
     <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Inline|Bungee+Shade|Baloo+Paaji|Wire+One|Cabin|Fjalla+One|Josefin+Slab|Lobster|Lobster+Two|Oleo+Script|Changa|Pacifico|Satisfy|Farsan" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
     <title>"What's New?"</title>
 
 </head>
@@ -62,7 +79,8 @@ else{
 
 <div id="form-main">
     <div id="form-div">
-        <form class="form" method="post" id="form1">
+        <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="wow fadeInUp"></a>
+        <form class="form" method="post" id="form1" action="index.html">
 
             <div class="input-group">
                 <h1 id="h1-div">"WHAT'S NEW?"</h1>
@@ -77,13 +95,17 @@ else{
                 <textarea name="content" class="validate[required,length[6,300]] feedback-input" id="content" placeholder="Enter Log"></textarea>
 
             <div class="submit">
-                <input type="button" value="POST." id="button-blue" onclick="sendForm()"/>
+                <input type="button" value="POST." id="button-blue"/>
                 <div class="ease"></div>
             </div>
 
         </form>
 
 </div>
+
+    <div id="result" style="position:absolute;top:0;left:0;width:100%;height:20px">
+
+        </div>
 </body>
 
 <style>
@@ -120,7 +142,7 @@ else{
         width: 700px;
         left: 40%;
         position: absolute;
-        margin-top:30px;
+        margin-top:25px;
         margin-left: -260px;
         -moz-border-radius: 7px;
         -webkit-border-radius: 7px;
@@ -152,6 +174,20 @@ else{
         outline: none;
         padding: 13px 13px 13px 54px;
     }
+
+    #isarclogo {
+        transition: 2s;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    #isarclogo:hover {
+        opacity: 0.6;
+    }
+
+    #isarclogo { transition: all .2s ease-in-out; }
+    #isarclogo:hover { transform: scale(1.1); }
 
     /* Icons ---------------------------------- */
     #title{
@@ -286,7 +322,14 @@ else{
         {
             if(this.readyState==4&&this.status==200)
             {
-                console.log(this.responseText)
+                var log = JSON.parse(this.responseText);
+                console.log(log);
+                console.log(log.title);
+                console.log(log.author);
+                console.log(log.content);
+
+                document.getElementById("result").innerHTML=log.title;
+
             }
         };
 

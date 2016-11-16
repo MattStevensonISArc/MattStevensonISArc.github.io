@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signIn.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11992584_1005315989508268_1263232822_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13903432_1208242355882296_3606646058390037649_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1915680_1115844451788754_2088248896079074595_n.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1c5ch7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/background1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mexicana1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mexicanaJones.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createLog.php" afterPath="$PROJECT_DIR$/createLog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,27 +34,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="createLog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createLog.php">
+      <file leaf-file-name="signIn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signIn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="94" selection-start-line="93" selection-start-column="94" selection-end-line="93" selection-end-column="94" />
+            <state relative-caret-position="15">
+              <caret line="254" column="32" selection-start-line="254" selection-start-column="32" selection-end-line="254" selection-end-column="32" />
               <folding>
-                <marker date="1478783310000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
+                <marker date="1479248212000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
+                <marker date="1479248212000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="createLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/createLog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="602" column="96" selection-start-line="602" selection-start-column="94" selection-end-line="602" selection-end-column="96" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <marker date="1478786122000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
-                <marker date="1478786122000" expanded="true" signature="87550:87557" ph="×" />
+                <marker date="1479246680000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
+                <marker date="1479246680000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
+                <marker date="1479246680000" expanded="true" signature="781:822" ph="SELECT * FRO... logentries" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3000">
+              <caret line="200" column="1" selection-start-line="184" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,10 +74,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+            <state relative-caret-position="359">
+              <caret line="913" column="14" selection-start-line="913" selection-start-column="14" selection-end-line="913" selection-end-column="14" />
               <folding>
-                <marker date="1478789983000" expanded="true" signature="97853:97860" ph="×" />
+                <marker date="1479291735000" expanded="true" signature="113543:113550" ph="×" />
               </folding>
             </state>
           </provider>
@@ -115,8 +138,9 @@
         <option value="$PROJECT_DIR$/countDown.html" />
         <option value="$PROJECT_DIR$/countDown.php" />
         <option value="$PROJECT_DIR$/createLog2.php" />
-        <option value="$PROJECT_DIR$/createLog.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/createLog.php" />
+        <option value="$PROJECT_DIR$/signIn.php" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -129,9 +153,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="788" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -337,7 +362,9 @@
       <workItem from="1478742361415" duration="8494000" />
       <workItem from="1478777793415" duration="3295000" />
       <workItem from="1478786028727" duration="162000" />
-      <workItem from="1478789952381" duration="32000" />
+      <workItem from="1478789952381" duration="10986000" />
+      <workItem from="1479245476610" duration="2619000" />
+      <workItem from="1479290400067" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -350,15 +377,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288229000" />
+    <option name="totallyTimeSpent" value="303103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="788" extended-state="6" />
+    <frame x="1" y="22" width="1440" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25581396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -397,7 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/IV-7/index.html" />
     <entry file="file://$USER_HOME$/Downloads/IV-7-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,50 +669,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="214" column="110" selection-start-line="214" selection-start-column="91" selection-end-line="214" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createLog2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="93" column="98" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="98" />
-          <folding>
-            <marker date="1478783294000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createLog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="94" selection-start-line="93" selection-start-column="94" selection-end-line="93" selection-end-column="94" />
-          <folding>
-            <marker date="1478783310000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="602" column="96" selection-start-line="602" selection-start-column="94" selection-end-line="602" selection-end-column="96" />
+        <state relative-caret-position="15">
+          <caret line="142" column="129" selection-start-line="142" selection-start-column="11" selection-end-line="142" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="200" column="1" selection-start-line="184" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <marker date="1478786122000" expanded="true" signature="653:756" ph="INSERT INTO logentries... " />
-            <marker date="1478786122000" expanded="true" signature="87550:87557" ph="×" />
+            <marker date="1479246680000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
+            <marker date="1479246680000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
+            <marker date="1479246680000" expanded="true" signature="781:822" ph="SELECT * FRO... logentries" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="254" column="32" selection-start-line="254" selection-start-column="32" selection-end-line="254" selection-end-column="32" />
+          <folding>
+            <marker date="1479248212000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
+            <marker date="1479248212000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+        <state relative-caret-position="359">
+          <caret line="913" column="14" selection-start-line="913" selection-start-column="14" selection-end-line="913" selection-end-column="14" />
           <folding>
-            <marker date="1478789983000" expanded="true" signature="97853:97860" ph="×" />
+            <marker date="1479291735000" expanded="true" signature="113543:113550" ph="×" />
           </folding>
         </state>
       </provider>

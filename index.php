@@ -24,7 +24,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     }
 
     if($db){
-        echo "Connection Successful";
 
         $title="$_POST[title]";
         $author="$_POST[author]";
@@ -34,12 +33,27 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
         $sql="INSERT INTO logentries(title,author,content,date_created)VALUES('$title','$author','$content','$today')";
         $db->exec($sql);
     }
-
 }
 
 
 else{
+        $host="localhost";
+        $port="8889";
+        $dbname="projectdatabase";
+        $username="root";
+        $password="root";
 
+
+        try
+        {
+            $db=new PDO("mysql:host=$host;port=$port;dbname=$dbname",$username,$password);
+
+            $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+        }
+        catch(PDOException $err)
+        {
+            echo "Connection Failed.".$err->getMessage();
+        }
     ?>
 
     <!-- HTML -->
@@ -484,6 +498,25 @@ else{
                 <small class="pull-right text-muted">
                     <span class=""><i class="material-icons">watch_later</i></span>08/09/2016</small>
                 <br>
+
+                    <?php
+                    $sql="SELECT * FROM logentries";
+                    $result=$db->query($sql);
+                    while($row=$result->fetch(PDO::FETCH_ASSOC)) {
+                        ?>
+                        <h6 class="ui-state-default"><?php echo $row['title'] ?></h6>
+                        <h6><?php echo $today['date'] ?></h6>
+                        <br>
+                        <h6><?php echo $author['author'] ?></h6>
+                        <div class="scroll">
+                            <h6>
+                                <?php echo $row['content'] ?>
+                            </h6>
+                        </div>
+                        <?php
+                    }
+                    ?>
+
                 <h5 class="ui-state-default" id="#001">Log 001: HTML & CSS 1</h5>
                 <br>
                 <div class="scroll"><h6>Today is Thursday the 8th of September, thus far the other placement students and I have been imaging our MacBook Pro’s, downloading and installing programs relating to
