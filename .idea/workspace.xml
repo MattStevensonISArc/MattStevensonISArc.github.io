@@ -2,18 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac19740-f2a0-405c-8cb3-75826b210f79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signIn.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/11992584_1005315989508268_1263232822_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/13903432_1208242355882296_3606646058390037649_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1915680_1115844451788754_2088248896079074595_n.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1c5ch7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/background1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mexicana1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mexicanaJones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Unknown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backToTOP.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrapLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/codecademyLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/createLog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/createlog.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/createlog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cyanIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cyanIcon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/editLog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/feedback.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/feedback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hand.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html5logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/splashBack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/intro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascriptlogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/materialDesignLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/materialIcons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sendFeedback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/up-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/up-arrowFlat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewBackground.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewLogs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewlogs.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/viewlogs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/w3schoolsLogo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createLog.php" afterPath="$PROJECT_DIR$/createLog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.html" afterPath="$PROJECT_DIR$/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.js" afterPath="$PROJECT_DIR$/demo.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="HTML&amp;CSS1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,38 +56,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="signIn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/signIn.php">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="254" column="32" selection-start-line="254" selection-start-column="32" selection-end-line="254" selection-end-column="32" />
-              <folding>
-                <marker date="1479248212000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
-                <marker date="1479248212000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createLog.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createLog.php">
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <marker date="1479246680000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
-                <marker date="1479246680000" expanded="true" signature="781:815" ph="SELECT * FRO... logentries" />
-                <marker date="1479246680000" expanded="true" signature="781:822" ph="SELECT * FRO... logentries" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="200" column="1" selection-start-line="184" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -74,10 +79,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="913" column="14" selection-start-line="913" selection-start-column="14" selection-end-line="913" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="893" column="12" selection-start-line="893" selection-start-column="12" selection-end-line="893" selection-end-column="12" />
               <folding>
-                <marker date="1479291735000" expanded="true" signature="113543:113550" ph="×" />
+                <marker date="1479299340000" expanded="true" signature="113516:113523" ph="×" />
               </folding>
             </state>
           </provider>
@@ -129,8 +134,6 @@
         <option value="$PROJECT_DIR$/JavaScript1.html" />
         <option value="$PROJECT_DIR$/demo2.html" />
         <option value="$PROJECT_DIR$/JavaScript1.js" />
-        <option value="$PROJECT_DIR$/demo.js" />
-        <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/javascript4.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/logIn.php" />
@@ -141,6 +144,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/createLog.php" />
         <option value="$PROJECT_DIR$/signIn.php" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/demo.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -153,7 +158,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="784" />
@@ -364,7 +368,8 @@
       <workItem from="1478786028727" duration="162000" />
       <workItem from="1478789952381" duration="10986000" />
       <workItem from="1479245476610" duration="2619000" />
-      <workItem from="1479290400067" duration="1301000" />
+      <workItem from="1479290400067" duration="1795000" />
+      <workItem from="1479295568939" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="Commited Signup page">
       <created>1473856229771</created>
@@ -377,10 +382,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303103000" />
+    <option name="totallyTimeSpent" value="305847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1440" height="784" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25581396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -599,20 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2595">
-          <caret line="173" column="92" selection-start-line="173" selection-start-column="92" selection-end-line="173" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="29" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3 columns listing/index.html" />
     <entry file="file://$PROJECT_DIR$/corporate/index.html" />
     <entry file="file://$PROJECT_DIR$/JavaScript1.js">
@@ -625,13 +616,6 @@
     <entry file="file://$PROJECT_DIR$/backToTOP.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="15" selection-start-line="58" selection-start-column="7" selection-end-line="69" selection-end-column="15" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logIn.php">
@@ -685,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
+        <state relative-caret-position="584">
           <caret line="200" column="1" selection-start-line="184" selection-start-column="0" selection-end-line="200" selection-end-column="1" />
           <folding />
         </state>
@@ -693,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/createLog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="15">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <marker date="1479246680000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
@@ -705,7 +689,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/signIn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="0">
           <caret line="254" column="32" selection-start-line="254" selection-start-column="32" selection-end-line="254" selection-end-column="32" />
           <folding>
             <marker date="1479248212000" expanded="true" signature="599:702" ph="INSERT INTO logentries... " />
@@ -714,12 +698,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="15" selection-start-line="58" selection-start-column="7" selection-end-line="69" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="160" column="29" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="913" column="14" selection-start-line="913" selection-start-column="14" selection-end-line="913" selection-end-column="14" />
+        <state relative-caret-position="300">
+          <caret line="893" column="12" selection-start-line="893" selection-start-column="12" selection-end-line="893" selection-end-column="12" />
           <folding>
-            <marker date="1479291735000" expanded="true" signature="113543:113550" ph="×" />
+            <marker date="1479299340000" expanded="true" signature="113516:113523" ph="×" />
           </folding>
         </state>
       </provider>

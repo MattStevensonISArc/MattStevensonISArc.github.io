@@ -66,7 +66,6 @@
     <h5 class ="wow fadeInUp">This page was created to demonstrate a series of JavaScript functions I have implemented.</h5>
     <br>
     </div>
-    <div>
         <br>
         <!--Section: Contact-->
         <div class="container-fluid" id="contact">
@@ -94,7 +93,7 @@
                     </div>
                         </div>
                     <hr>
-                        <form id="logIn" onsubmit = "checkUser()">
+                        <form onsubmit = "checkUser()">
                             <h6>If you enter your own name and custom password into this function, it will not work. It has been set to only allow Username - 'Matt', and Password - 'Password01'
                              to be accepted. If you use Inspect Element and direct to the Console you can see this function in action.</h6>
                             <br>
@@ -158,7 +157,7 @@
                          the image to change when hovered over, and then revert back to its original state when the cursor leaves its area.</h6>
                         <br>
                         <li class="text-xs-center">
-                            <img src="html5logo.png" id="html5logo" onmouseover="setImage(this)" onmouseout="resetImage(this)" height="135px" width="135px">
+                            <img src="img/png/html5logo.png" id="html5logo" onmouseover="setImage(this)" onmouseout="resetImage(this)" height="135px" width="135px">
                         </li>
                         <hr>
                         <li>
@@ -193,7 +192,29 @@
                             </button>
                         </li>
                     </ul>
+                    <hr>
+
+                    <a href="img/png/WebsiteDiagram.png">
+                        <h6>View Website Diagram</h6>
+                    </a>
+                    <hr>
+
+                    <a href="CV.pdf">
+                        <h6>Download my CV here:</h6>
+                    </a>
+<hr>
                 </div>
+
+
+                <h6>Image Map:</h6>
+
+                <h6>Click the centre of the YouTube logo to be directed to Youtube.com</h6>
+
+                <img src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="140" height="100" alt="YoutubeLogo" usemap="#youtubelogo">
+
+                <map name="youtubelogo">
+                    <area shape="circle" coords="60,40,30,30" alt="twitterlogo" href="https://www.youtube.com">
+                </map>
 
 
                 <!--/Second column-->
@@ -245,7 +266,6 @@
         <script src="validator.js"></script>
         <script src="contact.js"></script>
     </div>
-</div>
 </body>
 
 </html>

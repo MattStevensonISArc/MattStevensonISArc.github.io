@@ -51,11 +51,11 @@ function createLog() {
 }
 
 function setImage(image){
-    image.src = "javascriptlogo.svg";
+    image.src = "img/png/javascriptlogo.svg";
 }
 
 function resetImage(image){
-    image.src = "html5logo.png";
+    image.src = "img/png/html5logo.png";
 }
 
 function getLogs() {
