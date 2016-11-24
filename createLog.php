@@ -89,7 +89,7 @@ else{
                 <textarea name="content" class="validate[required,length[6,300]] feedback-input" id="content" placeholder="Enter Log"></textarea>
 
             <div class="submit">
-                <input type="button" value="POST." id="button-blue"/>
+                <input type="button" value="POST." onclick="sendForm()" id="button-blue"/>
                 <div class="ease"></div>
             </div>
 
