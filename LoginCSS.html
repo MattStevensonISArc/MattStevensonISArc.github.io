@@ -1,48 +1,3 @@
-<?php
-
-if($_SERVER["REQUEST_METHOD"]=="POST")
-{
-
-    $host="localhost";
-    $port="8889";
-    $dbname="projectdatabase";
-    $username="root";
-    $password="root";
-
-    try
-    {
-        $db=new PDO("mysql:host=$host;port=$port;dbname=$dbname",$username,$password);
-
-        $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    }
-    catch(PDOException $err)
-    {
-        echo "Connection Failed.".$err->getMessage();
-    }
-
-    if($db){
-
-        $title="$_POST[title]";
-        $author="$_POST[author]";
-        $content="$_POST[content]";
-        $today=date("Y-m-d");
-        $sql="INSERT INTO logentries(title,author,content,date_created)VALUES('$title','$author','$content','$today')";
-        $db->exec($sql);
-        $lastId=$db->lastInsertId();
-        $sql="SELECT * FROM logentries WHERE id=$lastId";
-
-        $result=$db->query($sql);
-        $row=$result->fetch(PDO::FETCH_ASSOC);
-        echo json_encode($row);
-    }
-
-}
-
-
-else{
-
-?>
-
 <!-- HTML -->
 
 <!DOCTYPE html>
@@ -55,15 +10,11 @@ else{
 
     <link href="https://fonts.googleapis.com/css?family=Cabin:700" rel="stylesheet">
 
-    <!-- Font Awesome -->
+    <!-- Font Awesome CDN Link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Inline|Bungee+Shade|Baloo+Paaji|Wire+One|Cabin|Fjalla+One|Josefin+Slab|Lobster|Lobster+Two|Oleo+Script|Changa|Pacifico|Satisfy|Farsan" rel="stylesheet">
-
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <!-- Google API : Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <title>"What's New?"</title>
 
@@ -73,44 +24,173 @@ else{
 
 <div id="form-main">
     <div id="form-div">
-        <a href="http://www.isarc.co.uk"><img src="isarc.png" id="isarclogo" width="83" height="56" class="wow fadeInUp"></a>
+
+        <div class="help">
+
+            <div class="question">
+                <div class="right">
+                    <a href="http://www.isarc.co.uk"><img src="infoicon.png" id="isarclogo" width="120px" height="120px" class="wow fadeInUp"></a>
+                </div>
+
+                <div class="popup">
+                    <h3>Need some help?</h3>
+                    <p><strong></strong><strong></strong></p>
+                    <p><strong></strong><strong></strong><strong></strong><strong></strong></p>
+                    <p><strong></strong><strong></strong><strong></strong></p><br><br>
+                    <div class="tell-me">
+                        <p>More help...</p>
+                        <div class="popup2">
+                            <h4>Sub-levels</h4>
+                            <p class="sub-levels"><strong>a</strong> = you consistently reach this level</p>
+                            <p class="sub-levels"><strong>b</strong> = you reach this level most of the time</p>
+                            <p class="sub-levels"><strong>c</strong> = you sometimes reach this level</p>
+                            <p><a href="#" target="_blank">Click here</a> for more detailed Computing &amp; IT level descriptions.</p>
+                            <p><em></em></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <form class="form" method="post" id="form1" action="index.html">
 
             <div class="input-group">
-                <h1 id="h1-div">"WHAT'S NEW?"</h1>
-            <p class="name">
-                <input name="title" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" id="title" placeholder="Title" />
-            </p>
+                <p class="name">
+                    <input name="email" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" id="email" placeholder="Type your E-mail Address here..." />
+                </p>
 
-            <p class="user">
-                <input name="author" type="text" class="validate[required,custom[email]] feedback-input" id="author" placeholder="User" />
-            </p>
+                <p class="user">
+                    <input name="password" type="text" pattern=".{8,}" class="validate[required,custom[ ]] feedback-input" id="password" placeholder="Type your password here..." />
+                </p>
 
-                <textarea name="content" class="validate[required,length[6,300]] feedback-input" id="content" placeholder="Enter Log"></textarea>
-
-            <div class="submit">
-                <input type="button" value="POST." id="button-blue"/>
-                <div class="ease"></div>
-            </div>
+                <div class="submit">
+                    <input type="button" value="Log in" id="button-blue"/>
+                    <div class="ease"></div>
+                </div>
 
         </form>
-
 </div>
-
-    <div id="result" style="position:absolute;top:0;left:0;width:100%;height:20px">
-
-        </div>
+    </div>
 </body>
-
 <style>
-    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+    .right {
+        position: absolute;
+        right: -250px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    /*info css*/
+
+    .help {
+        width: 40px;
+        margin: 0 auto;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
+
+    .help .question {
+        cursor: pointer;
+        display: block;
+    }
+
+    .help .popup, .help .popup2 {
+
+        width: 500px;
+        height: 0;
+        text-align: left;
+        overflow: hidden;
+        position: relative;
+        background: #ffffff;
+        opacity: 0;
+        transition: 2s;
+    }
+
+    .help .popup {
+        left: -240px;
+        top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .help .popup2 {
+        height: 220px;
+    }
+
+    .help .popup2 h4 {
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .help:hover .popup {
+        opacity: 1;
+        height: 200px;
+    }
+
+    .help .tell-me p:first-child {
+        color: #317eac;
+        cursor: pointer;
+    }
+
+    .tell-me {
+        width: 150px;
+    }
+
+    .help .tell-me:hover .popup2 {
+        opacity: 1;
+    }
+
+    .help .popup h3 {
+        margin: 0;
+        padding: 20px 10px 10px 20px;
+        height: 30px;
+        background: #404040;
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .help .popup p {
+        font-size: 16px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .help .popup .popup2 .sub-levels {
+        padding: 0 0 10px 0px;
+    }
+
+    .help .popup .popup2 .sub-levels strong {
+        font-size: 20px;
+    }
+
+    .help .popup .popup2 p:nth-child(5) {
+        padding: 20px 0 0 10px;
+    }
+
+    .help .popup a {
+        text-decoration: none;
+        color: #317eac;
+    }
+
+    .help .popup a:visited {
+        color: #317eac;
+    }
+
+    .help .popup p em {
+        font-size: 12px;
+    }
+
+    /*main css*/
 
     html
-    {   background:url(http://www.prax.sk/wp-content/uploads/2014/11/background_blue_v0011.jpg) no-repeat center center fixed;
+    {   background:url() no-repeat center center fixed;
         background-size: cover;
         height:100%;
     }
+
+    /*http://www.prax.sk/wp-content/uploads/2014/11/background_blue_v0011.jpg*/
 
     h1 {
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -136,11 +216,11 @@ else{
         width: 700px;
         left: 40%;
         position: absolute;
-        margin-top:25px;
+        margin-top:70px;
         margin-left: -260px;
         -moz-border-radius: 7px;
         -webkit-border-radius: 7px;
-        background: linear-gradient(135deg, rgb(85, 239, 203) 0%, rgb(30, 87, 153) 0%,rgba(85,239,203,1) 0%, rgb(91, 202, 255) 100%);
+        background: linear-gradient(135deg, rgb(255, 255, 255) 0%, rgb(30, 87, 153) 0%, rgb(21, 89, 178) 0%, rgb(91, 202, 255) 100%);
     }
 
     .feedback-input {
@@ -184,47 +264,32 @@ else{
     #isarclogo:hover { transform: scale(1.1); }
 
     /* Icons ---------------------------------- */
-    #title{
-        background-image: url(http://www.jan.instante.justice.md/sites/jil.instante.justice.md/files/doc_icon.png);
+    #email{
+        background-image: url(http://www.advogar.pt/wp-content/uploads/2014/04/Mail-at-icon.png);
         background-size: 33px 33px;
         background-position: 11px 8px;
         background-repeat: no-repeat;
     }
 
-    #title:focus{
-        background-image: url(http://www.jan.instante.justice.md/sites/jil.instante.justice.md/files/doc_icon.png);
+    #email:focus{
+        background-image: url(http://www.advogar.pt/wp-content/uploads/2014/04/Mail-at-icon.png);
         background-size: 33px 33px;
         background-position: 11px 8px;
         background-repeat: no-repeat;
         opacity: 0.9;
     }
 
-    #author{
-        background-image: url(http://horisontrejser.dk/media/2454/icon.png);
-        background-size: 30px 30px;
-        background-position: 11px 8px;
+    #password{
+        background-image: url(https://t3.ftcdn.net/jpg/01/07/85/88/160_F_107858881_bKCO4PlkwlpMAHpHmEMP1ms8MtLOEEKf.jpg);
+        background-size: 41px 41px;
+        background-position: 6px 3px;
         background-repeat: no-repeat;
     }
 
-    #author:focus{
-        background-image: url(http://horisontrejser.dk/media/2454/icon.png);
-        background-size: 30px 30px;
-        background-position: 11px 8px;
-        background-repeat: no-repeat;
-        opacity: 0.9;
-    }
-
-    #content{
-        background-image: url(https://cdn3.iconfinder.com/data/icons/simplius-pack/512/pencil_and_paper-512.png);
-        background-size: 27px 27px;
-        background-position: 13px 8px;
-        background-repeat: no-repeat;
-    }
-
-    #content:focus{
-        background-image: url(https://cdn3.iconfinder.com/data/icons/simplius-pack/512/pencil_and_paper-512.png);
-        background-size: 27px 27px;
-        background-position: 13px 8px;
+    #password:focus{
+        background-image: url(https://t3.ftcdn.net/jpg/01/07/85/88/160_F_107858881_bKCO4PlkwlpMAHpHmEMP1ms8MtLOEEKf.jpg);
+        background-size: 41px 41px;
+        background-position: 6px 3px;
         background-repeat: no-repeat;
         opacity: 0.9;
     }
@@ -248,7 +313,7 @@ else{
         width: 100%;
         border: #ffffff solid 5px;
         cursor:pointer;
-        background: #509bcf;
+        background: #3e84d6;
         color:white;
         font-size:24px;
         padding-top:22px;
@@ -270,7 +335,7 @@ else{
     }
 
     .submit:hover {
-        color: rgb(42, 169, 227);
+        color: rgb(71, 164, 255);
     }
 
     .ease {
