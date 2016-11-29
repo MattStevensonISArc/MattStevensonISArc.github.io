@@ -34,26 +34,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
         $db->exec($sql);
     }
 }
-
-
-else{
-        $host="localhost";
-        $port="8889";
-        $dbname="projectdatabase";
-        $username="root";
-        $password="root";
-
-
-        try
-        {
-            $db=new PDO("mysql:host=$host;port=$port;dbname=$dbname",$username,$password);
-
-            $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-        }
-        catch(PDOException $err)
-        {
-            echo "Connection Failed.".$err->getMessage();
-        }
     ?>
 
     <!-- HTML -->
@@ -942,6 +922,36 @@ else{
                 responses that are sent back to web browsers are also of a limited size.
             </h6>
         </div>
+    <hr>
+    <div class="container" align="left">
+        <img class="img-circle" id="avatar13" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+        <strong class="userName" id="#log013">Matt Stevenson</strong>
+    </div>
+    <small class="pull-right text-muted">
+        <span class=""><i class="material-icons">watch_later</i></span>02/11/2016</small>
+    <br>
+    <h5 class="ui-state-default">Log 013: Understanding Web Browsers</h5>
+    <br>
+    <h6>A URI or Uniform Resource Identifier is a string of characters used to uniquely identify a resource, a very common URI is the Uniform Resource Locator (URL) which is the location of a resource. A URN is a Uniform Resource Name which is used to provide a mechanism for identification of resources by defining specific namespaces. Commonly, most computers have a built in pop-up blocker, although there are third party software programs available that may target different types of pop-ups or advertising. TLS or Transfer Layer Security is a public key encryption protocol which was superseded by SSL, an acronym for Secure Sockets Layer. PCT or Private Communications Transport protocol is also based on the encryption and transmission of public keys. The Internet is a global computer network comprised of interconnected networks which are publicly accessible, an Intranet on the other hand is a closed or private system of resources which are specifically only available to a single network - often used in schools or other professional bodies which may require such private networking services. An extranet is a webpage which gives the likes of company associates or related organisations to access certain resources, often a subset of the resources that are available from a company’s Intranet. With relevance to it’s uses for businesses and thriving organisations the world wide web and associated web clients are useful with regards to the fact that information can be transmitted with ease, information transmission within business is especially important as it can range from the transfer of company operations to it’s financial standing or stocks, meaning important information can be shared and monitored in a more efficient manner than to use another medium such as paperwork. Using different web browsers can be both advantageous to a user or the opposite, depending on what it is the user wishes to carry out with use of the browser; for example, using a very fast browser that processes web based information very quickly, may be more detrimental to a user who would prefer rich content to be displayed. Some browsers will be riddled with functionality elements allowing for a user to do more with the browser, although this can be a drawback with regards to cross platform compatibility as some browsers will have predefined solutions in their infrastructure which are not supported by other browsing software packages, therefore disabling them from being used in a cross or multi-platform scenario. The function of CAPTCHA on the Internet is to test and verify if a user is a human or a computerised robot attempting to gain unauthorised access to a set of resources, the test currently embodies a set of letters which are distorted and/or blurred out slightly - the reason for this is that humans can distinguish the letters from each other and enter them correctly, whereas current computer programs cannot. Anonymous browsing on the Internet is when a user creates an ‘anonymous’ or private window within their browser where their personal information, browsing history, downloads or bookmarks are saved the computer and are completely erased upon the browsing software or private window session being closed - it is purely for security reasons and in the case of a user wishing for their web browsing to be entirely confidential.
+    </h6>
+</div>
+<hr>
+<div class="container" align="left">
+    <img class="img-circle" id="avatar14" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
+    <strong class="userName" id="#log014">Matt Stevenson</strong>
+</div>
+<small class="pull-right text-muted">
+    <span class=""><i class="material-icons">watch_later</i></span>08/11/2016</small>
+<br>
+<h5 class="ui-state-default">Log 014: Web Design and Development Jobs
+</h5>
+<br>
+<h6>Education is very important with regards to how rapidly the IT industry changes and advances, with new and innovative technologies being introduced constantly - this means that material in terms of theory or new developments in a technological field of IT must be rehashed and revisited in order to keep up with the ongoing advancements. Web Analysts use web based analytics to troubleshoot an organisations site and make plans in order to update the website. A website manager ensures website functionality remains as it was intended and performs software updates to the website, along with monitoring and reporting performance. A DBA or database administrator ensures performance of a database by considering security and database integrity. A server administrator’s job is to monitor and manage the performance of a server within a business in order to ensure there is no server ‘down-time’ or problems within the server. A help desk technician ensures that a company’s technological services up-to-date and running at optimal performance levels. Web marketing managers are responsible for implementing marketing strategics to assist company growth and income. A mobile web application developer is someone who creates web applications that are suited and tailored for mobile usage, writing processes and programs which make up a web-based mobile application that can be used on mobile devices easily. A PC and mobile repair technician is a job which entails a person who repairs and maintains computers and mobile devices to ensure they are working correctly, configuring new hardware devices and upgrading software applications.
+
+    A web developer is someone who can program web applications and use programming languages to assist in their creation e.g. HTML/CSS/JavaScript/jQuery/PHP/SQL etc., whereas a web architect still can program but are more involved in overall system design and designing or implementing frameworks - which can then be passed on to a development team. A security analyst is a person whose job is to diagnose security issues, allocating security procedures and upgrading security plans for the company - along with recommending new security options that the company could use for their systems, on the other hand, a security manager’s job is involved in daily maintenance of a system, reporting performance issues and providing feedback to assist in future system plans. A CEO is an overall manager of a company with responsibilities is fields such as implementing plans for business strategies and carrying out company processes by taking tasks from a board of directors, a COO on the other hand is a person in charge of more so, “day-to-day” operations of a company and allocating work-loads to specific departments of the company, often reporting to the CEO as somewhat of an assistant in an organisation.
+</h6>
+</div>
+
 
                 <div class="container" align="left">
                     <img class="img-circle" id="avatarNew" src="avatar.jpg" alt="Photo of Me" height="60px" width="60px">
